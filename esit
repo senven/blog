@@ -1,0 +1,1443 @@
+[33mcommit 7a38b859267fd267e28fa6fccc2bef5342f5d758[m
+Author: senven <venkat.lakshmanan@photoninfotech.net>
+Date:   Wed Mar 20 19:44:20 2013 +0530
+
+    new header
+
+ wp-content/themes/sonicbids/header.php | 164 [32m+++++++++++++++++++++++++++++++++[m
+ 1 file changed, 164 insertions(+)
+
+[33mcommit 6d4cace7d4c72949fc663011989d12bdd4651795[m
+Author: senven <venkat.lakshmanan@photoninfotech.net>
+Date:   Wed Mar 20 19:43:23 2013 +0530
+
+    new header
+
+ wp-content/themes/sonicbids/header.php | 164 [31m---------------------------------[m
+ 1 file changed, 164 deletions(-)
+
+[33mcommit bba20807d6e7f5fc37bd83f9960c18663e00f89a[m
+Author: senven <venkat.lakshmanan@photoninfotech.net>
+Date:   Wed Mar 20 19:34:29 2013 +0530
+
+    new header
+
+ wp-content/themes/sonicbids/header.php | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 16eff8aa77a5abb6041c1b1fb30481080f1d1822[m
+Author: senven <venkat.lakshmanan@photoninfotech.net>
+Date:   Wed Mar 20 19:14:10 2013 +0530
+
+    blog commit
+
+ .gitattributes                                     |   22 [32m+[m
+ .gitignore                                         |  163 [32m+[m
+ .htaccess                                          |   12 [32m+[m
+ index.php                                          |   17 [32m+[m
+ license.txt                                        |  385 [32m+[m
+ readme.html                                        |  108 [32m+[m
+ wp-activate.php                                    |  120 [32m+[m
+ wp-admin/about.php                                 |  168 [32m+[m
+ wp-admin/admin-ajax.php                            |   77 [32m+[m
+ wp-admin/admin-footer.php                          |   42 [32m+[m
+ wp-admin/admin-functions.php                       |   15 [32m+[m
+ wp-admin/admin-header.php                          |  139 [32m+[m
+ wp-admin/admin-post.php                            |   31 [32m+[m
+ wp-admin/admin.php                                 |  232 [32m+[m
+ wp-admin/async-upload.php                          |   99 [32m+[m
+ wp-admin/comment.php                               |  294 [32m+[m
+ wp-admin/credits.php                               |  161 [32m+[m
+ wp-admin/css/color-picker-rtl.css                  |   27 [32m+[m
+ wp-admin/css/color-picker-rtl.min.css              |    1 [32m+[m
+ wp-admin/css/color-picker.css                      |  107 [32m+[m
+ wp-admin/css/color-picker.min.css                  |    1 [32m+[m
+ wp-admin/css/colors-classic.css                    | 2201 [32m+++++[m
+ wp-admin/css/colors-classic.min.css                |    1 [32m+[m
+ wp-admin/css/colors-fresh.css                      | 2076 [32m+++++[m
+ wp-admin/css/colors-fresh.min.css                  |    1 [32m+[m
+ wp-admin/css/customize-controls-rtl.css            |   85 [32m+[m
+ wp-admin/css/customize-controls-rtl.min.css        |    1 [32m+[m
+ wp-admin/css/customize-controls.css                |  527 [32m++[m
+ wp-admin/css/customize-controls.min.css            |    1 [32m+[m
+ wp-admin/css/farbtastic.css                        |   52 [32m+[m
+ wp-admin/css/ie-rtl.css                            |  240 [32m+[m
+ wp-admin/css/ie-rtl.min.css                        |    1 [32m+[m
+ wp-admin/css/ie.css                                |  626 [32m++[m
+ wp-admin/css/ie.min.css                            |    1 [32m+[m
+ wp-admin/css/install.css                           |  261 [32m+[m
+ wp-admin/css/install.min.css                       |    1 [32m+[m
+ wp-admin/css/media-rtl.css                         |   71 [32m+[m
+ wp-admin/css/media-rtl.min.css                     |    1 [32m+[m
+ wp-admin/css/media.css                             |  353 [32m+[m
+ wp-admin/css/media.min.css                         |    1 [32m+[m
+ wp-admin/css/wp-admin-rtl.css                      | 2641 [32m++++++[m
+ wp-admin/css/wp-admin-rtl.min.css                  |    1 [32m+[m
+ wp-admin/css/wp-admin.css                          | 8581 [32m++++++++++++++++++++[m
+ wp-admin/css/wp-admin.min.css                      |    1 [32m+[m
+ wp-admin/custom-background.php                     |  425 [32m+[m
+ wp-admin/custom-header.php                         | 1014 [32m+++[m
+ wp-admin/customize.php                             |  208 [32m+[m
+ wp-admin/edit-comments.php                         |  255 [32m+[m
+ wp-admin/edit-form-advanced.php                    |  435 [32m+[m
+ wp-admin/edit-form-comment.php                     |  146 [32m+[m
+ wp-admin/edit-link-form.php                        |  139 [32m+[m
+ wp-admin/edit-tag-form.php                         |   96 [32m+[m
+ wp-admin/edit-tags.php                             |  420 [32m+[m
+ wp-admin/edit.php                                  |  293 [32m+[m
+ wp-admin/export.php                                |  220 [32m+[m
+ wp-admin/freedoms.php                              |   57 [32m+[m
+ wp-admin/images/align-center-2x.png                |  Bin [31m0[m -> [32m147[m bytes
+ wp-admin/images/align-center.png                   |  Bin [31m0[m -> [32m546[m bytes
+ wp-admin/images/align-left-2x.png                  |  Bin [31m0[m -> [32m143[m bytes
+ wp-admin/images/align-left.png                     |  Bin [31m0[m -> [32m554[m bytes
+ wp-admin/images/align-none-2x.png                  |  Bin [31m0[m -> [32m121[m bytes
+ wp-admin/images/align-none.png                     |  Bin [31m0[m -> [32m417[m bytes
+ wp-admin/images/align-right-2x.png                 |  Bin [31m0[m -> [32m142[m bytes
+ wp-admin/images/align-right.png                    |  Bin [31m0[m -> [32m509[m bytes
+ wp-admin/images/arrows-2x.png                      |  Bin [31m0[m -> [32m863[m bytes
+ wp-admin/images/arrows-dark-2x.png                 |  Bin [31m0[m -> [32m719[m bytes
+ wp-admin/images/arrows-dark-vs-2x.png              |  Bin [31m0[m -> [32m761[m bytes
+ wp-admin/images/arrows-dark-vs.png                 |  Bin [31m0[m -> [32m243[m bytes
+ wp-admin/images/arrows-dark.png                    |  Bin [31m0[m -> [32m243[m bytes
+ wp-admin/images/arrows-vs-2x.png                   |  Bin [31m0[m -> [32m723[m bytes
+ wp-admin/images/arrows-vs.png                      |  Bin [31m0[m -> [32m243[m bytes
+ wp-admin/images/arrows.png                         |  Bin [31m0[m -> [32m243[m bytes
+ wp-admin/images/bubble_bg-2x.gif                   |  Bin [31m0[m -> [32m507[m bytes
+ wp-admin/images/bubble_bg-rtl-2x.gif               |  Bin [31m0[m -> [32m499[m bytes
+ wp-admin/images/bubble_bg-rtl.gif                  |  Bin [31m0[m -> [32m400[m bytes
+ wp-admin/images/bubble_bg.gif                      |  Bin [31m0[m -> [32m395[m bytes
+ wp-admin/images/comment-grey-bubble-2x.png         |  Bin [31m0[m -> [32m259[m bytes
+ wp-admin/images/comment-grey-bubble.png            |  Bin [31m0[m -> [32m114[m bytes
+ wp-admin/images/date-button-2x.gif                 |  Bin [31m0[m -> [32m992[m bytes
+ wp-admin/images/date-button.gif                    |  Bin [31m0[m -> [32m400[m bytes
+ wp-admin/images/generic.png                        |  Bin [31m0[m -> [32m719[m bytes
+ wp-admin/images/icons32-2x.png                     |  Bin [31m0[m -> [32m35645[m bytes
+ wp-admin/images/icons32-vs-2x.png                  |  Bin [31m0[m -> [32m37994[m bytes
+ wp-admin/images/icons32-vs.png                     |  Bin [31m0[m -> [32m12920[m bytes
+ wp-admin/images/icons32.png                        |  Bin [31m0[m -> [32m12989[m bytes
+ wp-admin/images/imgedit-icons-2x.png               |  Bin [31m0[m -> [32m14853[m bytes
+ wp-admin/images/imgedit-icons.png                  |  Bin [31m0[m -> [32m6989[m bytes
+ wp-admin/images/list-2x.png                        |  Bin [31m0[m -> [32m1523[m bytes
+ wp-admin/images/list.png                           |  Bin [31m0[m -> [32m1003[m bytes
+ wp-admin/images/loading.gif                        |  Bin [31m0[m -> [32m2530[m bytes
+ wp-admin/images/marker.png                         |  Bin [31m0[m -> [32m377[m bytes
+ wp-admin/images/mask.png                           |  Bin [31m0[m -> [32m2001[m bytes
+ wp-admin/images/media-button-2x.png                |  Bin [31m0[m -> [32m850[m bytes
+ wp-admin/images/media-button-image.gif             |  Bin [31m0[m -> [32m206[m bytes
+ wp-admin/images/media-button-music.gif             |  Bin [31m0[m -> [32m205[m bytes
+ wp-admin/images/media-button-other.gif             |  Bin [31m0[m -> [32m245[m bytes
+ wp-admin/images/media-button-video.gif             |  Bin [31m0[m -> [32m139[m bytes
+ wp-admin/images/media-button.png                   |  Bin [31m0[m -> [32m323[m bytes
+ wp-admin/images/menu-2x.png                        |  Bin [31m0[m -> [32m30324[m bytes
+ wp-admin/images/menu-shadow-rtl.png                |  Bin [31m0[m -> [32m92[m bytes
+ wp-admin/images/menu-shadow.png                    |  Bin [31m0[m -> [32m89[m bytes
+ wp-admin/images/menu-vs-2x.png                     |  Bin [31m0[m -> [32m29592[m bytes
+ wp-admin/images/menu-vs.png                        |  Bin [31m0[m -> [32m9320[m bytes
+ wp-admin/images/menu.png                           |  Bin [31m0[m -> [32m9165[m bytes
+ wp-admin/images/no.png                             |  Bin [31m0[m -> [32m755[m bytes
+ wp-admin/images/press-this-2x.png                  |  Bin [31m0[m -> [32m755[m bytes
+ wp-admin/images/press-this.png                     |  Bin [31m0[m -> [32m417[m bytes
+ wp-admin/images/resize-2x.gif                      |  Bin [31m0[m -> [32m234[m bytes
+ wp-admin/images/resize-rtl-2x.gif                  |  Bin [31m0[m -> [32m232[m bytes
+ wp-admin/images/resize-rtl.gif                     |  Bin [31m0[m -> [32m1418[m bytes
+ wp-admin/images/resize.gif                         |  Bin [31m0[m -> [32m71[m bytes
+ wp-admin/images/screenshots/about-color-picker.png |  Bin [31m0[m -> [32m27110[m bytes
+ wp-admin/images/screenshots/about-media.png        |  Bin [31m0[m -> [32m399038[m bytes
+ wp-admin/images/screenshots/about-retina.png       |  Bin [31m0[m -> [32m155138[m bytes
+ .../images/screenshots/about-twenty-twelve.png     |  Bin [31m0[m -> [32m201294[m bytes
+ wp-admin/images/se.png                             |  Bin [31m0[m -> [32m120[m bytes
+ wp-admin/images/sort-2x.gif                        |  Bin [31m0[m -> [32m97[m bytes
+ wp-admin/images/sort.gif                           |  Bin [31m0[m -> [32m54[m bytes
+ wp-admin/images/stars-2x.png                       |  Bin [31m0[m -> [32m1257[m bytes
+ wp-admin/images/stars-rtl-2x.png                   |  Bin [31m0[m -> [32m3212[m bytes
+ wp-admin/images/stars-rtl.png                      |  Bin [31m0[m -> [32m926[m bytes
+ wp-admin/images/stars.png                          |  Bin [31m0[m -> [32m924[m bytes
+ wp-admin/images/welcome-icons-2x.png               |  Bin [31m0[m -> [32m6349[m bytes
+ wp-admin/images/welcome-icons.png                  |  Bin [31m0[m -> [32m2152[m bytes
+ wp-admin/images/wheel.png                          |  Bin [31m0[m -> [32m11505[m bytes
+ wp-admin/images/wordpress-logo-2x.png              |  Bin [31m0[m -> [32m4867[m bytes
+ wp-admin/images/wordpress-logo.png                 |  Bin [31m0[m -> [32m2480[m bytes
+ wp-admin/images/wp-badge-2x.png                    |  Bin [31m0[m -> [32m28160[m bytes
+ wp-admin/images/wp-badge.png                       |  Bin [31m0[m -> [32m12099[m bytes
+ wp-admin/images/wp-logo-2x.png                     |  Bin [31m0[m -> [32m1806[m bytes
+ wp-admin/images/wp-logo-vs-2x.png                  |  Bin [31m0[m -> [32m2087[m bytes
+ wp-admin/images/wp-logo-vs.png                     |  Bin [31m0[m -> [32m751[m bytes
+ wp-admin/images/wp-logo.png                        |  Bin [31m0[m -> [32m661[m bytes
+ wp-admin/images/wpspin_light-2x.gif                |  Bin [31m0[m -> [32m9097[m bytes
+ wp-admin/images/wpspin_light.gif                   |  Bin [31m0[m -> [32m2193[m bytes
+ wp-admin/images/xit-2x.gif                         |  Bin [31m0[m -> [32m823[m bytes
+ wp-admin/images/xit.gif                            |  Bin [31m0[m -> [32m182[m bytes
+ wp-admin/images/yes.png                            |  Bin [31m0[m -> [32m539[m bytes
+ wp-admin/import.php                                |  133 [32m+[m
+ wp-admin/includes/admin.php                        |   72 [32m+[m
+ wp-admin/includes/ajax-actions.php                 | 2072 [32m+++++[m
+ wp-admin/includes/bookmark.php                     |  290 [32m+[m
+ wp-admin/includes/class-ftp-pure.php               |  190 [32m+[m
+ wp-admin/includes/class-ftp-sockets.php            |  250 [32m+[m
+ wp-admin/includes/class-ftp.php                    |  907 [32m+++[m
+ wp-admin/includes/class-pclzip.php                 | 5687 [32m+++++++++++++[m
+ wp-admin/includes/class-wp-comments-list-table.php |  565 [32m++[m
+ wp-admin/includes/class-wp-filesystem-base.php     |  333 [32m+[m
+ wp-admin/includes/class-wp-filesystem-direct.php   |  363 [32m+[m
+ wp-admin/includes/class-wp-filesystem-ftpext.php   |  393 [32m+[m
+ .../includes/class-wp-filesystem-ftpsockets.php    |  333 [32m+[m
+ wp-admin/includes/class-wp-filesystem-ssh2.php     |  386 [32m+[m
+ wp-admin/includes/class-wp-importer.php            |  302 [32m+[m
+ wp-admin/includes/class-wp-links-list-table.php    |  189 [32m+[m
+ wp-admin/includes/class-wp-list-table.php          |  920 [32m+++[m
+ wp-admin/includes/class-wp-media-list-table.php    |  429 [32m+[m
+ wp-admin/includes/class-wp-ms-sites-list-table.php |  344 [32m+[m
+ .../includes/class-wp-ms-themes-list-table.php     |  356 [32m+[m
+ wp-admin/includes/class-wp-ms-users-list-table.php |  272 [32m+[m
+ .../class-wp-plugin-install-list-table.php         |  238 [32m+[m
+ wp-admin/includes/class-wp-plugins-list-table.php  |  437 [32m+[m
+ wp-admin/includes/class-wp-posts-list-table.php    | 1061 [32m+++[m
+ wp-admin/includes/class-wp-terms-list-table.php    |  378 [32m+[m
+ .../includes/class-wp-theme-install-list-table.php |  394 [32m+[m
+ wp-admin/includes/class-wp-themes-list-table.php   |  253 [32m+[m
+ wp-admin/includes/class-wp-upgrader.php            | 1673 [32m++++[m
+ wp-admin/includes/class-wp-users-list-table.php    |  324 [32m+[m
+ wp-admin/includes/comment.php                      |  158 [32m+[m
+ wp-admin/includes/continents-cities.php            |  493 [32m++[m
+ wp-admin/includes/dashboard.php                    | 1299 [32m+++[m
+ wp-admin/includes/deprecated.php                   | 1028 [32m+++[m
+ wp-admin/includes/export.php                       |  436 [32m+[m
+ wp-admin/includes/file.php                         | 1061 [32m+++[m
+ wp-admin/includes/image-edit.php                   |  728 [32m++[m
+ wp-admin/includes/image.php                        |  412 [32m+[m
+ wp-admin/includes/import.php                       |  185 [32m+[m
+ wp-admin/includes/list-table.php                   |  113 [32m+[m
+ wp-admin/includes/media.php                        | 2399 [32m++++++[m
+ wp-admin/includes/menu.php                         |  229 [32m+[m
+ wp-admin/includes/meta-boxes.php                   |  982 [32m+++[m
+ wp-admin/includes/misc.php                         |  563 [32m++[m
+ wp-admin/includes/ms-deprecated.php                |   78 [32m+[m
+ wp-admin/includes/ms.php                           |  714 [32m++[m
+ wp-admin/includes/nav-menu.php                     | 1162 [32m+++[m
+ wp-admin/includes/plugin-install.php               |  406 [32m+[m
+ wp-admin/includes/plugin.php                       | 1763 [32m++++[m
+ wp-admin/includes/post.php                         | 1309 [32m+++[m
+ wp-admin/includes/schema.php                       |  978 [32m+++[m
+ wp-admin/includes/screen.php                       | 1075 [32m+++[m
+ wp-admin/includes/taxonomy.php                     |  252 [32m+[m
+ wp-admin/includes/template.php                     | 1867 [32m+++++[m
+ wp-admin/includes/theme-install.php                |  192 [32m+[m
+ wp-admin/includes/theme.php                        |  296 [32m+[m
+ wp-admin/includes/update-core.php                  |  879 [32m++[m
+ wp-admin/includes/update.php                       |  310 [32m+[m
+ wp-admin/includes/upgrade.php                      | 2000 [32m+++++[m
+ wp-admin/includes/user.php                         |  369 [32m+[m
+ wp-admin/includes/widgets.php                      |  228 [32m+[m
+ wp-admin/index.php                                 |  138 [32m+[m
+ wp-admin/install-helper.php                        |  198 [32m+[m
+ wp-admin/install.php                               |  256 [32m+[m
+ wp-admin/js/cat.js                                 |    5 [32m+[m
+ wp-admin/js/cat.min.js                             |    1 [32m+[m
+ wp-admin/js/categories.js                          |   34 [32m+[m
+ wp-admin/js/categories.min.js                      |    1 [32m+[m
+ wp-admin/js/color-picker.js                        |  131 [32m+[m
+ wp-admin/js/color-picker.min.js                    |    1 [32m+[m
+ wp-admin/js/comment.js                             |   49 [32m+[m
+ wp-admin/js/comment.min.js                         |    1 [32m+[m
+ wp-admin/js/common.js                              |  427 [32m+[m
+ wp-admin/js/common.min.js                          |    1 [32m+[m
+ wp-admin/js/custom-background.js                   |   74 [32m+[m
+ wp-admin/js/custom-background.min.js               |    1 [32m+[m
+ wp-admin/js/custom-fields.js                       |   34 [32m+[m
+ wp-admin/js/custom-fields.min.js                   |    1 [32m+[m
+ wp-admin/js/custom-header.js                       |   60 [32m+[m
+ wp-admin/js/customize-controls.js                  | 1019 [32m+++[m
+ wp-admin/js/customize-controls.min.js              |    1 [32m+[m
+ wp-admin/js/dashboard.js                           |  117 [32m+[m
+ wp-admin/js/dashboard.min.js                       |    1 [32m+[m
+ wp-admin/js/edit-comments.js                       |  607 [32m++[m
+ wp-admin/js/edit-comments.min.js                   |    1 [32m+[m
+ wp-admin/js/editor.js                              |  238 [32m+[m
+ wp-admin/js/editor.min.js                          |    1 [32m+[m
+ wp-admin/js/farbtastic.js                          |  276 [32m+[m
+ wp-admin/js/gallery.js                             |  199 [32m+[m
+ wp-admin/js/gallery.min.js                         |    1 [32m+[m
+ wp-admin/js/image-edit.js                          |  573 [32m++[m
+ wp-admin/js/image-edit.min.js                      |    1 [32m+[m
+ wp-admin/js/inline-edit-post.js                    |  303 [32m+[m
+ wp-admin/js/inline-edit-post.min.js                |    1 [32m+[m
+ wp-admin/js/inline-edit-tax.js                     |  118 [32m+[m
+ wp-admin/js/inline-edit-tax.min.js                 |    1 [32m+[m
+ wp-admin/js/iris.min.js                            |    4 [32m+[m
+ wp-admin/js/link.js                                |   67 [32m+[m
+ wp-admin/js/link.min.js                            |    1 [32m+[m
+ wp-admin/js/media-gallery.js                       |   25 [32m+[m
+ wp-admin/js/media-gallery.min.js                   |    1 [32m+[m
+ wp-admin/js/media-upload.js                        |   88 [32m+[m
+ wp-admin/js/media-upload.min.js                    |    1 [32m+[m
+ wp-admin/js/media.js                               |  124 [32m+[m
+ wp-admin/js/media.min.js                           |    1 [32m+[m
+ wp-admin/js/nav-menu.js                            |  965 [32m+++[m
+ wp-admin/js/nav-menu.min.js                        |    1 [32m+[m
+ wp-admin/js/password-strength-meter.js             |   36 [32m+[m
+ wp-admin/js/password-strength-meter.min.js         |    1 [32m+[m
+ wp-admin/js/plugin-install.js                      |   53 [32m+[m
+ wp-admin/js/plugin-install.min.js                  |    1 [32m+[m
+ wp-admin/js/post.js                                |  794 [32m++[m
+ wp-admin/js/post.min.js                            |    1 [32m+[m
+ wp-admin/js/postbox.js                             |  186 [32m+[m
+ wp-admin/js/postbox.min.js                         |    1 [32m+[m
+ wp-admin/js/revisions-js.php                       |   39 [32m+[m
+ wp-admin/js/set-post-thumbnail.js                  |   21 [32m+[m
+ wp-admin/js/set-post-thumbnail.min.js              |    1 [32m+[m
+ wp-admin/js/tags.js                                |   68 [32m+[m
+ wp-admin/js/tags.min.js                            |    1 [32m+[m
+ wp-admin/js/theme-preview.js                       |   56 [32m+[m
+ wp-admin/js/theme-preview.min.js                   |    1 [32m+[m
+ wp-admin/js/theme.js                               |  254 [32m+[m
+ wp-admin/js/theme.min.js                           |    1 [32m+[m
+ wp-admin/js/user-profile.js                        |   78 [32m+[m
+ wp-admin/js/user-profile.min.js                    |    1 [32m+[m
+ wp-admin/js/user-suggest.js                        |   13 [32m+[m
+ wp-admin/js/user-suggest.min.js                    |    1 [32m+[m
+ wp-admin/js/widgets.js                             |  289 [32m+[m
+ wp-admin/js/widgets.min.js                         |    1 [32m+[m
+ wp-admin/js/word-count.js                          |   42 [32m+[m
+ wp-admin/js/word-count.min.js                      |    1 [32m+[m
+ wp-admin/js/wp-fullscreen.js                       |  725 [32m++[m
+ wp-admin/js/wp-fullscreen.min.js                   |    1 [32m+[m
+ wp-admin/js/xfn.js                                 |   16 [32m+[m
+ wp-admin/js/xfn.min.js                             |    1 [32m+[m
+ wp-admin/link-add.php                              |   32 [32m+[m
+ wp-admin/link-manager.php                          |  100 [32m+[m
+ wp-admin/link-parse-opml.php                       |   96 [32m+[m
+ wp-admin/link.php                                  |  120 [32m+[m
+ wp-admin/load-scripts.php                          |  162 [32m+[m
+ wp-admin/load-styles.php                           |  151 [32m+[m
+ wp-admin/maint/repair.php                          |  114 [32m+[m
+ wp-admin/media-new.php                             |   85 [32m+[m
+ wp-admin/media-upload.php                          |   58 [32m+[m
+ wp-admin/media.php                                 |  147 [32m+[m
+ wp-admin/menu-header.php                           |  190 [32m+[m
+ wp-admin/menu.php                                  |  244 [32m+[m
+ wp-admin/moderation.php                            |   12 [32m+[m
+ wp-admin/ms-admin.php                              |   13 [32m+[m
+ wp-admin/ms-delete-site.php                        |   84 [32m+[m
+ wp-admin/ms-edit.php                               |   13 [32m+[m
+ wp-admin/ms-options.php                            |   12 [32m+[m
+ wp-admin/ms-sites.php                              |   13 [32m+[m
+ wp-admin/ms-themes.php                             |   13 [32m+[m
+ wp-admin/ms-upgrade-network.php                    |   13 [32m+[m
+ wp-admin/ms-users.php                              |   13 [32m+[m
+ wp-admin/my-sites.php                              |  120 [32m+[m
+ wp-admin/nav-menus.php                             |  607 [32m++[m
+ wp-admin/network.php                               |  543 [32m++[m
+ wp-admin/network/about.php                         |   16 [32m+[m
+ wp-admin/network/admin.php                         |   24 [32m+[m
+ wp-admin/network/credits.php                       |   16 [32m+[m
+ wp-admin/network/edit.php                          |   27 [32m+[m
+ wp-admin/network/freedoms.php                      |   16 [32m+[m
+ wp-admin/network/index.php                         |   66 [32m+[m
+ wp-admin/network/menu.php                          |   63 [32m+[m
+ wp-admin/network/plugin-editor.php                 |   16 [32m+[m
+ wp-admin/network/plugin-install.php                |   19 [32m+[m
+ wp-admin/network/plugins.php                       |   16 [32m+[m
+ wp-admin/network/profile.php                       |   16 [32m+[m
+ wp-admin/network/settings.php                      |  304 [32m+[m
+ wp-admin/network/setup.php                         |   16 [32m+[m
+ wp-admin/network/site-info.php                     |  180 [32m+[m
+ wp-admin/network/site-new.php                      |  153 [32m+[m
+ wp-admin/network/site-settings.php                 |  159 [32m+[m
+ wp-admin/network/site-themes.php                   |  182 [32m+[m
+ wp-admin/network/site-users.php                    |  312 [32m+[m
+ wp-admin/network/sites.php                         |  257 [32m+[m
+ wp-admin/network/theme-editor.php                  |   16 [32m+[m
+ wp-admin/network/theme-install.php                 |   19 [32m+[m
+ wp-admin/network/themes.php                        |  273 [32m+[m
+ wp-admin/network/update-core.php                   |   16 [32m+[m
+ wp-admin/network/update.php                        |   19 [32m+[m
+ wp-admin/network/upgrade.php                       |   95 [32m+[m
+ wp-admin/network/user-edit.php                     |   16 [32m+[m
+ wp-admin/network/user-new.php                      |  107 [32m+[m
+ wp-admin/network/users.php                         |  299 [32m+[m
+ wp-admin/options-discussion.php                    |  252 [32m+[m
+ wp-admin/options-general.php                       |  327 [32m+[m
+ wp-admin/options-head.php                          |   19 [32m+[m
+ wp-admin/options-media.php                         |  137 [32m+[m
+ wp-admin/options-permalink.php                     |  284 [32m+[m
+ wp-admin/options-reading.php                       |  170 [32m+[m
+ wp-admin/options-writing.php                       |  183 [32m+[m
+ wp-admin/options.php                               |  231 [32m+[m
+ wp-admin/plugin-editor.php                         |  268 [32m+[m
+ wp-admin/plugin-install.php                        |   72 [32m+[m
+ wp-admin/plugins.php                               |  437 [32m+[m
+ wp-admin/post-new.php                              |   55 [32m+[m
+ wp-admin/post.php                                  |  274 [32m+[m
+ wp-admin/press-this.php                            |  654 [32m++[m
+ wp-admin/profile.php                               |   18 [32m+[m
+ wp-admin/revision.php                              |  223 [32m+[m
+ wp-admin/setup-config.php                          |  295 [32m+[m
+ wp-admin/theme-editor.php                          |  246 [32m+[m
+ wp-admin/theme-install.php                         |   86 [32m+[m
+ wp-admin/themes.php                                |  311 [32m+[m
+ wp-admin/tools.php                                 |   71 [32m+[m
+ wp-admin/update-core.php                           |  546 [32m++[m
+ wp-admin/update.php                                |  257 [32m+[m
+ wp-admin/upgrade-functions.php                     |   12 [32m+[m
+ wp-admin/upgrade.php                               |  115 [32m+[m
+ wp-admin/upload.php                                |  250 [32m+[m
+ wp-admin/user-edit.php                             |  433 [32m+[m
+ wp-admin/user-new.php                              |  384 [32m+[m
+ wp-admin/user/about.php                            |   13 [32m+[m
+ wp-admin/user/admin.php                            |   25 [32m+[m
+ wp-admin/user/credits.php                          |   13 [32m+[m
+ wp-admin/user/freedoms.php                         |   13 [32m+[m
+ wp-admin/user/index.php                            |   12 [32m+[m
+ wp-admin/user/menu.php                             |   22 [32m+[m
+ wp-admin/user/profile.php                          |   12 [32m+[m
+ wp-admin/user/user-edit.php                        |   12 [32m+[m
+ wp-admin/users.php                                 |  455 [32m++[m
+ wp-admin/widgets.php                               |  399 [32m+[m
+ wp-blog-header.php                                 |   18 [32m+[m
+ wp-comments-post.php                               |   99 [32m+[m
+ wp-config-sample.php                               |   90 [32m+[m
+ wp-config.php                                      |   90 [32m+[m
+ wp-content/index.php                               |    2 [32m+[m
+ wp-content/plugins/akismet/.htaccess               |    6 [32m+[m
+ wp-content/plugins/akismet/admin.php               |  833 [32m++[m
+ wp-content/plugins/akismet/akismet.css             |   12 [32m+[m
+ wp-content/plugins/akismet/akismet.gif             |  Bin [31m0[m -> [32m2777[m bytes
+ wp-content/plugins/akismet/akismet.js              |  114 [32m+[m
+ wp-content/plugins/akismet/akismet.php             |  613 [32m++[m
+ wp-content/plugins/akismet/index.php               |    2 [32m+[m
+ wp-content/plugins/akismet/legacy.php              |  396 [32m+[m
+ wp-content/plugins/akismet/readme.txt              |  162 [32m+[m
+ wp-content/plugins/akismet/widget.php              |  108 [32m+[m
+ wp-content/plugins/hello.php                       |   82 [32m+[m
+ wp-content/plugins/index.php                       |    3 [32m+[m
+ wp-content/plugins/link-manager/link-manager.php   |   12 [32m+[m
+ wp-content/plugins/link-manager/readme.txt         |   16 [32m+[m
+ .../slick-social-share-buttons/css/admin_dcssb.css |  129 [32m+[m
+ .../slick-social-share-buttons/css/dcssb.css       |  214 [32m+[m
+ .../css/images/bdr_h4.png                          |  Bin [31m0[m -> [32m129[m bytes
+ .../css/images/bg_slick_top.png                    |  Bin [31m0[m -> [32m139[m bytes
+ .../css/images/buffer.png                          |  Bin [31m0[m -> [32m1837[m bytes
+ .../css/images/bufferx.png                         |  Bin [31m0[m -> [32m995[m bytes
+ .../slick-social-share-buttons/css/images/buzz.png |  Bin [31m0[m -> [32m1523[m bytes
+ .../css/images/dc_icon32.png                       |  Bin [31m0[m -> [32m1882[m bytes
+ .../css/images/delicious.png                       |  Bin [31m0[m -> [32m856[m bytes
+ .../slick-social-share-buttons/css/images/digg.png |  Bin [31m0[m -> [32m891[m bytes
+ .../css/images/facebook.png                        |  Bin [31m0[m -> [32m888[m bytes
+ .../css/images/linkedin.png                        |  Bin [31m0[m -> [32m1057[m bytes
+ .../css/images/loading.gif                         |  Bin [31m0[m -> [32m2711[m bytes
+ .../css/images/pinit-6.png                         |  Bin [31m0[m -> [32m3277[m bytes
+ .../css/images/pinit-count-s.png                   |  Bin [31m0[m -> [32m219[m bytes
+ .../css/images/pinit.png                           |  Bin [31m0[m -> [32m1484[m bytes
+ .../css/images/pinit_count.png                     |  Bin [31m0[m -> [32m278[m bytes
+ .../css/images/plusone.png                         |  Bin [31m0[m -> [32m1365[m bytes
+ .../css/images/reddit.png                          |  Bin [31m0[m -> [32m1883[m bytes
+ .../css/images/share.png                           |  Bin [31m0[m -> [32m1397[m bytes
+ .../css/images/stumble.png                         |  Bin [31m0[m -> [32m1329[m bytes
+ .../css/images/tab_130.png                         |  Bin [31m0[m -> [32m3462[m bytes
+ .../css/images/tab_bottom_floating.png             |  Bin [31m0[m -> [32m3368[m bytes
+ .../css/images/tab_bottom_horizontal.png           |  Bin [31m0[m -> [32m2750[m bytes
+ .../css/images/tab_bottom_vertical.png             |  Bin [31m0[m -> [32m2750[m bytes
+ .../css/images/tab_left_horizontal.png             |  Bin [31m0[m -> [32m2869[m bytes
+ .../css/images/tab_left_vertical.png               |  Bin [31m0[m -> [32m2869[m bytes
+ .../css/images/tab_right_horizontal.png            |  Bin [31m0[m -> [32m2729[m bytes
+ .../css/images/tab_right_vertical.png              |  Bin [31m0[m -> [32m2729[m bytes
+ .../css/images/tab_top_floating.png                |  Bin [31m0[m -> [32m3368[m bytes
+ .../css/images/tab_top_horizontal.png              |  Bin [31m0[m -> [32m2938[m bytes
+ .../css/images/tab_top_vertical.png                |  Bin [31m0[m -> [32m2938[m bytes
+ .../css/images/twitter.png                         |  Bin [31m0[m -> [32m1089[m bytes
+ .../dcwp_slick_social_buttons.php                  |  127 [32m+[m
+ .../inc/class.pagination.php                       |  197 [32m+[m
+ .../slick-social-share-buttons/inc/dcwp_admin.php  | 1007 [32m+++[m
+ .../inc/dcwp_plugin_admin.php                      |  222 [32m+[m
+ .../slick-social-share-buttons/inc/dcwp_social.php |  808 [32m++[m
+ .../slick-social-share-buttons/inc/dcwp_stats.php  |  819 [32m++[m
+ .../inc/js/jquery.admin.js                         |  101 [32m+[m
+ .../js/ga.social_tracking.js                       |  150 [32m+[m
+ .../js/jquery.social.float.1.3.js                  |  384 [32m+[m
+ .../js/jquery.social.slick.1.0.js                  |  236 [32m+[m
+ .../plugins/slick-social-share-buttons/readme.txt  |  242 [32m+[m
+ .../slick-social-share-buttons/screenshot-1.png    |  Bin [31m0[m -> [32m41173[m bytes
+ .../slick-social-share-buttons/screenshot-2.png    |  Bin [31m0[m -> [32m11663[m bytes
+ .../slick-social-share-buttons/screenshot-3.png    |  Bin [31m0[m -> [32m11625[m bytes
+ .../slick-social-share-buttons/screenshot-4.png    |  Bin [31m0[m -> [32m12393[m bytes
+ .../slick-social-share-buttons/screenshot-5.png    |  Bin [31m0[m -> [32m52777[m bytes
+ .../plugins/tinymce-advanced/css/tadv-styles.css   |  395 [32m+[m
+ .../plugins/tinymce-advanced/images/fade-butt.png  |  Bin [31m0[m -> [32m785[m bytes
+ .../plugins/tinymce-advanced/images/fontselect.gif |  Bin [31m0[m -> [32m363[m bytes
+ .../tinymce-advanced/images/fontsizeselect.gif     |  Bin [31m0[m -> [32m334[m bytes
+ .../tinymce-advanced/images/formatselect.gif       |  Bin [31m0[m -> [32m361[m bytes
+ .../plugins/tinymce-advanced/images/icons.gif      |  Bin [31m0[m -> [32m11794[m bytes
+ .../plugins/tinymce-advanced/images/layer.gif      |  Bin [31m0[m -> [32m903[m bytes
+ .../plugins/tinymce-advanced/images/separator.gif  |  Bin [31m0[m -> [32m229[m bytes
+ .../plugins/tinymce-advanced/images/spacer.gif     |  Bin [31m0[m -> [32m43[m bytes
+ .../tinymce-advanced/images/styleselect.gif        |  Bin [31m0[m -> [32m327[m bytes
+ .../tinymce-advanced/images/tablecontrols.gif      |  Bin [31m0[m -> [32m4876[m bytes
+ .../plugins/tinymce-advanced/images/wp_adv.gif     |  Bin [31m0[m -> [32m260[m bytes
+ .../plugins/tinymce-advanced/images/wp_more.gif    |  Bin [31m0[m -> [32m108[m bytes
+ .../plugins/tinymce-advanced/images/wp_page.gif    |  Bin [31m0[m -> [32m108[m bytes
+ wp-content/plugins/tinymce-advanced/js/tadv.js     |  116 [32m+[m
+ .../tinymce-advanced/mce/advhr/css/advhr.css       |    5 [32m+[m
+ .../tinymce-advanced/mce/advhr/editor_plugin.js    |    1 [32m+[m
+ .../plugins/tinymce-advanced/mce/advhr/js/rule.js  |   43 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/de_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/en_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/es_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/fr_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/it_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/ja_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/langs.php     |    9 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/pt_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/ru_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/advhr/langs/zh_dlg.js     |    1 [32m+[m
+ .../plugins/tinymce-advanced/mce/advhr/rule.htm    |   58 [32m+[m
+ .../tinymce-advanced/mce/advimage/css/advimage.css |   13 [32m+[m
+ .../tinymce-advanced/mce/advimage/editor_plugin.js |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/image.htm        |  235 [32m+[m
+ .../tinymce-advanced/mce/advimage/img/sample.gif   |  Bin [31m0[m -> [32m1624[m bytes
+ .../tinymce-advanced/mce/advimage/js/image.js      |  464 [32m++[m
+ .../tinymce-advanced/mce/advimage/langs/de_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/en_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/es_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/fr_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/it_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/ja_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/langs.php  |    9 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/pt_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/ru_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advimage/langs/zh_dlg.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/css/advlink.css   |    8 [32m+[m
+ .../tinymce-advanced/mce/advlink/editor_plugin.js  |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/js/advlink.js     |  543 [32m++[m
+ .../tinymce-advanced/mce/advlink/langs/de_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/en_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/es_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/fr_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/it_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/ja_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/langs.php   |    9 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/pt_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/ru_dlg.js   |    1 [32m+[m
+ .../tinymce-advanced/mce/advlink/langs/zh_dlg.js   |    1 [32m+[m
+ .../plugins/tinymce-advanced/mce/advlink/link.htm  |  338 [32m+[m
+ .../tinymce-advanced/mce/advlist/editor_plugin.js  |    1 [32m+[m
+ .../mce/contextmenu/editor_plugin.js               |    1 [32m+[m
+ .../tinymce-advanced/mce/emotions/editor_plugin.js |   40 [32m+[m
+ .../tinymce-advanced/mce/emotions/emotions.htm     |   94 [32m+[m
+ .../tinymce-advanced/mce/iespell/editor_plugin.js  |    1 [32m+[m
+ .../mce/insertdatetime/editor_plugin.js            |    1 [32m+[m
+ .../tinymce-advanced/mce/layer/editor_plugin.js    |    1 [32m+[m
+ .../mce/nonbreaking/editor_plugin.js               |    1 [32m+[m
+ .../tinymce-advanced/mce/print/editor_plugin.js    |    1 [32m+[m
+ .../mce/searchreplace/css/searchreplace.css        |    6 [32m+[m
+ .../mce/searchreplace/editor_plugin.js             |    1 [32m+[m
+ .../mce/searchreplace/js/searchreplace.js          |  142 [32m+[m
+ .../mce/searchreplace/langs/de_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/en_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/es_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/fr_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/it_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/ja_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/langs.php              |    9 [32m+[m
+ .../mce/searchreplace/langs/pt_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/ru_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/langs/zh_dlg.js              |    1 [32m+[m
+ .../mce/searchreplace/searchreplace.htm            |  100 [32m+[m
+ .../tinymce-advanced/mce/style/css/props.css       |   14 [32m+[m
+ .../tinymce-advanced/mce/style/editor_plugin.js    |    1 [32m+[m
+ .../plugins/tinymce-advanced/mce/style/js/props.js |  709 [32m++[m
+ .../tinymce-advanced/mce/style/langs/de_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/en_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/es_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/fr_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/it_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/ja_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/langs.php     |    9 [32m+[m
+ .../tinymce-advanced/mce/style/langs/pt_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/ru_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/style/langs/zh_dlg.js     |    1 [32m+[m
+ .../plugins/tinymce-advanced/mce/style/props.htm   |  845 [32m++[m
+ .../plugins/tinymce-advanced/mce/table/cell.htm    |  180 [32m+[m
+ .../tinymce-advanced/mce/table/css/cell.css        |   17 [32m+[m
+ .../plugins/tinymce-advanced/mce/table/css/row.css |   25 [32m+[m
+ .../tinymce-advanced/mce/table/css/table.css       |   13 [32m+[m
+ .../tinymce-advanced/mce/table/editor_plugin.js    |    1 [32m+[m
+ .../plugins/tinymce-advanced/mce/table/js/cell.js  |  319 [32m+[m
+ .../tinymce-advanced/mce/table/js/merge_cells.js   |   27 [32m+[m
+ .../plugins/tinymce-advanced/mce/table/js/row.js   |  254 [32m+[m
+ .../plugins/tinymce-advanced/mce/table/js/table.js |  501 [32m++[m
+ .../tinymce-advanced/mce/table/langs/de_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/en_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/es_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/fr_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/it_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/ja_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/langs.php     |    9 [32m+[m
+ .../tinymce-advanced/mce/table/langs/pt_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/ru_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/langs/zh_dlg.js     |    1 [32m+[m
+ .../tinymce-advanced/mce/table/merge_cells.htm     |   32 [32m+[m
+ .../plugins/tinymce-advanced/mce/table/row.htm     |  158 [32m+[m
+ .../plugins/tinymce-advanced/mce/table/table.htm   |  188 [32m+[m
+ .../mce/visualchars/editor_plugin.js               |    1 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/abbr.htm       |  142 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/acronym.htm    |  142 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/attributes.htm |  149 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/cite.htm       |  142 [32m+[m
+ .../mce/xhtmlxtras/css/attributes.css              |   11 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/css/popup.css  |    9 [32m+[m
+ .../mce/xhtmlxtras/css/xhtmlxtras.css              |   24 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/del.htm        |  162 [32m+[m
+ .../mce/xhtmlxtras/editor_plugin.js                |    1 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/ins.htm        |  162 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/js/abbr.js     |   28 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/js/acronym.js  |   28 [32m+[m
+ .../mce/xhtmlxtras/js/attributes.js                |  111 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/js/cite.js     |   28 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/js/del.js      |   53 [32m+[m
+ .../mce/xhtmlxtras/js/element_common.js            |  229 [32m+[m
+ .../tinymce-advanced/mce/xhtmlxtras/js/ins.js      |   53 [32m+[m
+ .../mce/xhtmlxtras/langs/de_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/en_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/es_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/fr_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/it_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/ja_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/langs.php                 |    9 [32m+[m
+ .../mce/xhtmlxtras/langs/pt_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/ru_dlg.js                 |    1 [32m+[m
+ .../mce/xhtmlxtras/langs/zh_dlg.js                 |    1 [32m+[m
+ wp-content/plugins/tinymce-advanced/readme.txt     |  117 [32m+[m
+ .../plugins/tinymce-advanced/screenshot-1.jpg      |  Bin [31m0[m -> [32m47540[m bytes
+ wp-content/plugins/tinymce-advanced/tadv_admin.php |  413 [32m+[m
+ .../plugins/tinymce-advanced/tadv_defaults.php     |   20 [32m+[m
+ .../plugins/tinymce-advanced/tiny_mce_popup.js     |    5 [32m+[m
+ .../plugins/tinymce-advanced/tinymce-advanced.php  |  312 [32m+[m
+ .../tinymce-advanced/utils/editable_selects.js     |   70 [32m+[m
+ .../plugins/tinymce-advanced/utils/form_utils.js   |  210 [32m+[m
+ .../plugins/tinymce-advanced/utils/mctabs.js       |  162 [32m+[m
+ .../plugins/tinymce-advanced/utils/validate.js     |  252 [32m+[m
+ .../languages/twitter-widget-pro-ar.po             |  314 [32m+[m
+ .../languages/twitter-widget-pro-da_DK.po          |  207 [32m+[m
+ .../languages/twitter-widget-pro-de_DE.po          |  382 [32m+[m
+ .../languages/twitter-widget-pro-es_ES.po          |  200 [32m+[m
+ .../languages/twitter-widget-pro-it_IT.po          |  380 [32m+[m
+ .../languages/twitter-widget-pro-nl_NL.po          |  380 [32m+[m
+ .../languages/twitter-widget-pro-sv_SE.po          |  201 [32m+[m
+ .../languages/twitter-widget-pro.pot               |  358 [32m+[m
+ .../plugins/twitter-widget-pro/lib/oauth-util.php  |  141 [32m+[m
+ .../plugins/twitter-widget-pro/lib/wp-twitter.php  |  216 [32m+[m
+ .../twitter-widget-pro/range-plugin-framework.php  |  446 [32m+[m
+ wp-content/plugins/twitter-widget-pro/readme.txt   |  461 [32m++[m
+ .../plugins/twitter-widget-pro/tlc-transients.php  |  203 [32m+[m
+ .../twitter-widget-pro/wp-twitter-widget.php       | 1328 [32m+++[m
+ .../close_window.gif                               |  Bin [31m0[m -> [32m79[m bytes
+ .../readme.txt                                     |   77 [32m+[m
+ .../screenshot-1.png                               |  Bin [31m0[m -> [32m25315[m bytes
+ .../upprev.css                                     |  104 [32m+[m
+ .../upprev.php                                     |   98 [32m+[m
+ .../upprev_js.php                                  |   83 [32m+[m
+ .../upprev_settings.php                            |  142 [32m+[m
+ wp-content/plugins/user-photo/admin.css            |   58 [32m+[m
+ .../plugins/user-photo/localization/template.po    |  171 [32m+[m
+ .../user-photo/localization/user-photo-ca.po       |  171 [32m+[m
+ .../user-photo/localization/user-photo-de_DE.po    |  171 [32m+[m
+ .../user-photo/localization/user-photo-es_ES.po    |  171 [32m+[m
+ .../user-photo/localization/user-photo-fr_FR.po    |  207 [32m+[m
+ .../user-photo/localization/user-photo-hu_HU.po    |  171 [32m+[m
+ .../user-photo/localization/user-photo-it_IT.po    |  171 [32m+[m
+ .../user-photo/localization/user-photo-nl_NL.po    |  169 [32m+[m
+ .../user-photo/localization/user-photo-pl_PL.po    |  170 [32m+[m
+ .../user-photo/localization/user-photo-pt_BR.po    |  171 [32m+[m
+ .../user-photo/localization/user-photo-ru_RU.po    |  171 [32m+[m
+ .../user-photo/localization/user-photo-tr_TR.po    |  171 [32m+[m
+ wp-content/plugins/user-photo/readme.txt           |  255 [32m+[m
+ wp-content/plugins/user-photo/screenshot-1.jpg     |  Bin [31m0[m -> [32m27652[m bytes
+ wp-content/plugins/user-photo/user-photo.php       |  909 [32m+++[m
+ .../plugins/wordpress-popular-posts/admin.php      |  717 [32m++[m
+ .../btn_donateCC_LG_global.gif                     |  Bin [31m0[m -> [32m2871[m bytes
+ .../plugins/wordpress-popular-posts/index.php      |    3 [32m+[m
+ .../plugins/wordpress-popular-posts/no_thumb.jpg   |  Bin [31m0[m -> [32m2420[m bytes
+ .../plugins/wordpress-popular-posts/readme.txt     |  332 [32m+[m
+ .../wordpress-popular-posts/screenshot-1.gif       |  Bin [31m0[m -> [32m26628[m bytes
+ .../wordpress-popular-posts/screenshot-2.gif       |  Bin [31m0[m -> [32m11300[m bytes
+ .../wordpress-popular-posts/screenshot-3.gif       |  Bin [31m0[m -> [32m6398[m bytes
+ .../wordpress-popular-posts/screenshot-4.gif       |  Bin [31m0[m -> [32m12634[m bytes
+ .../plugins/wordpress-popular-posts/style/wpp.css  |   42 [32m+[m
+ .../plugins/wordpress-popular-posts/timthumb.php   | 1245 [32m+++[m
+ .../wordpress-popular-posts-es_ES.po               |  804 [32m++[m
+ .../wordpress-popular-posts-fr_FR.po               | 1043 [32m+++[m
+ .../wordpress-popular-posts.php                    | 1623 [32m++++[m
+ .../wordpress-popular-posts.po                     |  802 [32m++[m
+ wp-content/themes/index.php                        |    3 [32m+[m
+ wp-content/themes/sonicbids/404.php                |   32 [32m+[m
+ wp-content/themes/sonicbids/archive.php            |   71 [32m+[m
+ wp-content/themes/sonicbids/author.php             |   91 [32m+[m
+ wp-content/themes/sonicbids/boilerplate.css        |  219 [32m+[m
+ wp-content/themes/sonicbids/category.php           |   58 [32m+[m
+ wp-content/themes/sonicbids/colors/dark.css        |  623 [32m++[m
+ wp-content/themes/sonicbids/comments.php           |   76 [32m+[m
+ wp-content/themes/sonicbids/content-aside.php      |   45 [32m+[m
+ wp-content/themes/sonicbids/content-featured.php   |   46 [32m+[m
+ wp-content/themes/sonicbids/content-gallery.php    |   91 [32m+[m
+ wp-content/themes/sonicbids/content-image.php      |   69 [32m+[m
+ wp-content/themes/sonicbids/content-intro.php      |   20 [32m+[m
+ wp-content/themes/sonicbids/content-link.php       |   45 [32m+[m
+ wp-content/themes/sonicbids/content-page.php       |   68 [32m+[m
+ wp-content/themes/sonicbids/content-quote.php      |   73 [32m+[m
+ wp-content/themes/sonicbids/content-single.php     |   79 [32m+[m
+ wp-content/themes/sonicbids/content-status.php     |   47 [32m+[m
+ wp-content/themes/sonicbids/content.php            |   79 [32m+[m
+ wp-content/themes/sonicbids/editor-style-rtl.css   |   24 [32m+[m
+ wp-content/themes/sonicbids/editor-style.css       |  311 [32m+[m
+ wp-content/themes/sonicbids/favicon.ico            |  Bin [31m0[m -> [32m2356[m bytes
+ wp-content/themes/sonicbids/fonts/font-style.css   |   15 [32m+[m
+ .../ufonts.com_univers-57-condensed-webfont.eot    |  Bin [31m0[m -> [32m18745[m bytes
+ .../ufonts.com_univers-57-condensed-webfont.svg    |  243 [32m+[m
+ .../ufonts.com_univers-57-condensed-webfont.ttf    |  Bin [31m0[m -> [32m39468[m bytes
+ .../ufonts.com_univers-57-condensed-webfont.woff   |  Bin [31m0[m -> [32m22320[m bytes
+ wp-content/themes/sonicbids/footer.php             |  113 [32m+[m
+ wp-content/themes/sonicbids/functions.php          | 1204 [32m+++[m
+ wp-content/themes/sonicbids/header.php             |  164 [32m+[m
+ wp-content/themes/sonicbids/image.php              |  103 [32m+[m
+ .../sonicbids/images/Blog-Home-2_followus_icon.jpg |  Bin [31m0[m -> [32m2661[m bytes
+ .../sonicbids/images/Blog-Post-4_share_icon.jpg    |  Bin [31m0[m -> [32m3310[m bytes
+ .../sonicbids/images/Blog-Post-4_video_pic.jpg     |  Bin [31m0[m -> [32m48920[m bytes
+ wp-content/themes/sonicbids/images/RSS_icon.jpg    |  Bin [31m0[m -> [32m1816[m bytes
+ .../themes/sonicbids/images/Stumble_icon.jpg       |  Bin [31m0[m -> [32m3186[m bytes
+ wp-content/themes/sonicbids/images/addicon.jpg     |  Bin [31m0[m -> [32m1839[m bytes
+ .../themes/sonicbids/images/categoryicon.jpg       |  Bin [31m0[m -> [32m1389[m bytes
+ .../themes/sonicbids/images/comments_icon.jpg      |  Bin [31m0[m -> [32m1742[m bytes
+ wp-content/themes/sonicbids/images/digg_icon.jpg   |  Bin [31m0[m -> [32m3240[m bytes
+ .../themes/sonicbids/images/facebook-hover.jpg     |  Bin [31m0[m -> [32m2769[m bytes
+ wp-content/themes/sonicbids/images/facebook.jpg    |  Bin [31m0[m -> [32m2068[m bytes
+ .../themes/sonicbids/images/facebook_icon.jpg      |  Bin [31m0[m -> [32m2870[m bytes
+ wp-content/themes/sonicbids/images/footer-logo.jpg |  Bin [31m0[m -> [32m5617[m bytes
+ wp-content/themes/sonicbids/images/googleplus.jpg  |  Bin [31m0[m -> [32m3297[m bytes
+ wp-content/themes/sonicbids/images/hover-bg.jpg    |  Bin [31m0[m -> [32m1322[m bytes
+ .../themes/sonicbids/images/linkedin_icon.jpg      |  Bin [31m0[m -> [32m3756[m bytes
+ wp-content/themes/sonicbids/images/logo-hover.jpg  |  Bin [31m0[m -> [32m4828[m bytes
+ wp-content/themes/sonicbids/images/logo.jpg        |  Bin [31m0[m -> [32m4659[m bytes
+ wp-content/themes/sonicbids/images/pic1.jpg        |  Bin [31m0[m -> [32m27423[m bytes
+ wp-content/themes/sonicbids/images/pic2.jpg        |  Bin [31m0[m -> [32m14485[m bytes
+ wp-content/themes/sonicbids/images/pic3.jpg        |  Bin [31m0[m -> [32m4503[m bytes
+ wp-content/themes/sonicbids/images/pinit_icon.jpg  |  Bin [31m0[m -> [32m3099[m bytes
+ wp-content/themes/sonicbids/images/tagicon.jpg     |  Bin [31m0[m -> [32m1926[m bytes
+ wp-content/themes/sonicbids/images/tweet_icon.jpg  |  Bin [31m0[m -> [32m3371[m bytes
+ .../themes/sonicbids/images/twitter-hover.jpg      |  Bin [31m0[m -> [32m2938[m bytes
+ wp-content/themes/sonicbids/images/twitter.jpg     |  Bin [31m0[m -> [32m2061[m bytes
+ wp-content/themes/sonicbids/images/videoicon1.jpg  |  Bin [31m0[m -> [32m10313[m bytes
+ .../sonicbids/inc/images/content-sidebar.png       |  Bin [31m0[m -> [32m273[m bytes
+ wp-content/themes/sonicbids/inc/images/content.png |  Bin [31m0[m -> [32m3682[m bytes
+ wp-content/themes/sonicbids/inc/images/dark.png    |  Bin [31m0[m -> [32m6884[m bytes
+ wp-content/themes/sonicbids/inc/images/light.png   |  Bin [31m0[m -> [32m7052[m bytes
+ .../sonicbids/inc/images/sidebar-content.png       |  Bin [31m0[m -> [32m272[m bytes
+ .../themes/sonicbids/inc/theme-customizer.js       |   12 [32m+[m
+ wp-content/themes/sonicbids/inc/theme-options.css  |   35 [32m+[m
+ wp-content/themes/sonicbids/inc/theme-options.js   |   52 [32m+[m
+ wp-content/themes/sonicbids/inc/theme-options.php  |  530 [32m++[m
+ wp-content/themes/sonicbids/inc/widgets.php        |  163 [32m+[m
+ wp-content/themes/sonicbids/index.php              |   60 [32m+[m
+ wp-content/themes/sonicbids/js/404.js              |   19 [32m+[m
+ wp-content/themes/sonicbids/js/ZeroClipboard.swf   |  Bin [31m0[m -> [32m1071[m bytes
+ wp-content/themes/sonicbids/js/bands.js            |   51 [32m+[m
+ wp-content/themes/sonicbids/js/carousel.js         |   75 [32m+[m
+ wp-content/themes/sonicbids/js/gigguide.js         |   93 [32m+[m
+ wp-content/themes/sonicbids/js/html5.js            |    3 [32m+[m
+ wp-content/themes/sonicbids/js/jquery-1.7.2.min.js |    4 [32m+[m
+ .../sonicbids/js/jquery-ui-1.8.22.custom.min.js    |   57 [32m+[m
+ wp-content/themes/sonicbids/js/jquery.cookie.js    |   72 [32m+[m
+ wp-content/themes/sonicbids/js/jquery.zclip.min.js |   12 [32m+[m
+ wp-content/themes/sonicbids/js/main.js             |  270 [32m+[m
+ wp-content/themes/sonicbids/js/request-a-demo.js   |   61 [32m+[m
+ wp-content/themes/sonicbids/js/shoutout.js         |   93 [32m+[m
+ wp-content/themes/sonicbids/js/showcase.js         |   17 [32m+[m
+ wp-content/themes/sonicbids/js/slides.js           |  110 [32m+[m
+ wp-content/themes/sonicbids/js/sonichub.js         |  141 [32m+[m
+ .../themes/sonicbids/languages/twentyeleven.pot    |  669 [32m++[m
+ wp-content/themes/sonicbids/license.txt            |  281 [32m+[m
+ wp-content/themes/sonicbids/page-front.php         |   34 [32m+[m
+ wp-content/themes/sonicbids/page.php               |   25 [32m+[m
+ wp-content/themes/sonicbids/readme.txt             |    5 [32m+[m
+ wp-content/themes/sonicbids/rtl.css                |  583 [32m++[m
+ wp-content/themes/sonicbids/screenshot.png         |  Bin [31m0[m -> [32m321247[m bytes
+ wp-content/themes/sonicbids/search.php             |   57 [32m+[m
+ wp-content/themes/sonicbids/searchform.php         |   13 [32m+[m
+ wp-content/themes/sonicbids/showcase.php           |  226 [32m+[m
+ wp-content/themes/sonicbids/sidebar-footer.php     |   41 [32m+[m
+ wp-content/themes/sonicbids/sidebar-page.php       |   27 [32m+[m
+ wp-content/themes/sonicbids/sidebar.php            |   98 [32m+[m
+ wp-content/themes/sonicbids/single.php             |   36 [32m+[m
+ wp-content/themes/sonicbids/style.css              | 3271 [32m++++++++[m
+ wp-content/themes/sonicbids/tag.php                |   59 [32m+[m
+ wp-content/themes/twentyeleven/404.php             |   48 [32m+[m
+ wp-content/themes/twentyeleven/archive.php         |   72 [32m+[m
+ wp-content/themes/twentyeleven/author.php          |   89 [32m+[m
+ wp-content/themes/twentyeleven/category.php        |   65 [32m+[m
+ wp-content/themes/twentyeleven/colors/dark.css     |  623 [32m++[m
+ wp-content/themes/twentyeleven/comments.php        |   78 [32m+[m
+ wp-content/themes/twentyeleven/content-aside.php   |   46 [32m+[m
+ .../themes/twentyeleven/content-featured.php       |   47 [32m+[m
+ wp-content/themes/twentyeleven/content-gallery.php |   92 [32m+[m
+ wp-content/themes/twentyeleven/content-image.php   |   70 [32m+[m
+ wp-content/themes/twentyeleven/content-intro.php   |   21 [32m+[m
+ wp-content/themes/twentyeleven/content-link.php    |   46 [32m+[m
+ wp-content/themes/twentyeleven/content-page.php    |   23 [32m+[m
+ wp-content/themes/twentyeleven/content-quote.php   |   74 [32m+[m
+ wp-content/themes/twentyeleven/content-single.php  |   71 [32m+[m
+ wp-content/themes/twentyeleven/content-status.php  |   47 [32m+[m
+ wp-content/themes/twentyeleven/content.php         |   84 [32m+[m
+ .../themes/twentyeleven/editor-style-rtl.css       |   24 [32m+[m
+ wp-content/themes/twentyeleven/editor-style.css    |  312 [32m+[m
+ wp-content/themes/twentyeleven/footer.php          |   35 [32m+[m
+ wp-content/themes/twentyeleven/functions.php       |  614 [32m++[m
+ wp-content/themes/twentyeleven/header.php          |  139 [32m+[m
+ wp-content/themes/twentyeleven/image.php           |  104 [32m+[m
+ .../images/comment-arrow-bypostauthor-dark-rtl.png |  Bin [31m0[m -> [32m255[m bytes
+ .../images/comment-arrow-bypostauthor-dark.png     |  Bin [31m0[m -> [32m237[m bytes
+ .../images/comment-arrow-bypostauthor-rtl.png      |  Bin [31m0[m -> [32m257[m bytes
+ .../images/comment-arrow-bypostauthor.png          |  Bin [31m0[m -> [32m239[m bytes
+ .../twentyeleven/images/comment-arrow-dark-rtl.png |  Bin [31m0[m -> [32m272[m bytes
+ .../twentyeleven/images/comment-arrow-dark.png     |  Bin [31m0[m -> [32m348[m bytes
+ .../twentyeleven/images/comment-arrow-rtl.png      |  Bin [31m0[m -> [32m271[m bytes
+ .../themes/twentyeleven/images/comment-arrow.png   |  Bin [31m0[m -> [32m250[m bytes
+ .../images/comment-bubble-dark-rtl.png             |  Bin [31m0[m -> [32m856[m bytes
+ .../twentyeleven/images/comment-bubble-dark.png    |  Bin [31m0[m -> [32m872[m bytes
+ .../twentyeleven/images/comment-bubble-rtl.png     |  Bin [31m0[m -> [32m783[m bytes
+ .../themes/twentyeleven/images/comment-bubble.png  |  Bin [31m0[m -> [32m791[m bytes
+ .../images/headers/chessboard-thumbnail.jpg        |  Bin [31m0[m -> [32m6420[m bytes
+ .../twentyeleven/images/headers/chessboard.jpg     |  Bin [31m0[m -> [32m52548[m bytes
+ .../images/headers/hanoi-thumbnail.jpg             |  Bin [31m0[m -> [32m4584[m bytes
+ .../themes/twentyeleven/images/headers/hanoi.jpg   |  Bin [31m0[m -> [32m39868[m bytes
+ .../images/headers/lanterns-thumbnail.jpg          |  Bin [31m0[m -> [32m8195[m bytes
+ .../twentyeleven/images/headers/lanterns.jpg       |  Bin [31m0[m -> [32m91152[m bytes
+ .../images/headers/pine-cone-thumbnail.jpg         |  Bin [31m0[m -> [32m3770[m bytes
+ .../twentyeleven/images/headers/pine-cone.jpg      |  Bin [31m0[m -> [32m38272[m bytes
+ .../images/headers/shore-thumbnail.jpg             |  Bin [31m0[m -> [32m6035[m bytes
+ .../themes/twentyeleven/images/headers/shore.jpg   |  Bin [31m0[m -> [32m77120[m bytes
+ .../images/headers/trolley-thumbnail.jpg           |  Bin [31m0[m -> [32m6385[m bytes
+ .../themes/twentyeleven/images/headers/trolley.jpg |  Bin [31m0[m -> [32m62046[m bytes
+ .../images/headers/wheel-thumbnail.jpg             |  Bin [31m0[m -> [32m6460[m bytes
+ .../themes/twentyeleven/images/headers/wheel.jpg   |  Bin [31m0[m -> [32m59833[m bytes
+ .../images/headers/willow-thumbnail.jpg            |  Bin [31m0[m -> [32m4297[m bytes
+ .../themes/twentyeleven/images/headers/willow.jpg  |  Bin [31m0[m -> [32m64681[m bytes
+ wp-content/themes/twentyeleven/images/search.png   |  Bin [31m0[m -> [32m440[m bytes
+ .../themes/twentyeleven/images/wordpress.png       |  Bin [31m0[m -> [32m794[m bytes
+ .../twentyeleven/inc/images/content-sidebar.png    |  Bin [31m0[m -> [32m210[m bytes
+ .../themes/twentyeleven/inc/images/content.png     |  Bin [31m0[m -> [32m185[m bytes
+ wp-content/themes/twentyeleven/inc/images/dark.png |  Bin [31m0[m -> [32m5243[m bytes
+ .../themes/twentyeleven/inc/images/light.png       |  Bin [31m0[m -> [32m5354[m bytes
+ .../twentyeleven/inc/images/sidebar-content.png    |  Bin [31m0[m -> [32m209[m bytes
+ .../themes/twentyeleven/inc/theme-customizer.js    |   12 [32m+[m
+ .../themes/twentyeleven/inc/theme-options.css      |   35 [32m+[m
+ .../themes/twentyeleven/inc/theme-options.js       |   52 [32m+[m
+ .../themes/twentyeleven/inc/theme-options.php      |  531 [32m++[m
+ wp-content/themes/twentyeleven/inc/widgets.php     |  164 [32m+[m
+ wp-content/themes/twentyeleven/index.php           |   52 [32m+[m
+ wp-content/themes/twentyeleven/js/html5.js         |    6 [32m+[m
+ wp-content/themes/twentyeleven/js/showcase.js      |   17 [32m+[m
+ .../themes/twentyeleven/languages/twentyeleven.pot |  660 [32m++[m
+ wp-content/themes/twentyeleven/license.txt         |  281 [32m+[m
+ wp-content/themes/twentyeleven/page.php            |   31 [32m+[m
+ wp-content/themes/twentyeleven/readme.txt          |    5 [32m+[m
+ wp-content/themes/twentyeleven/rtl.css             |  583 [32m++[m
+ wp-content/themes/twentyeleven/screenshot.png      |  Bin [31m0[m -> [32m197796[m bytes
+ wp-content/themes/twentyeleven/search.php          |   57 [32m+[m
+ wp-content/themes/twentyeleven/searchform.php      |   14 [32m+[m
+ wp-content/themes/twentyeleven/showcase.php        |  227 [32m+[m
+ wp-content/themes/twentyeleven/sidebar-footer.php  |   42 [32m+[m
+ wp-content/themes/twentyeleven/sidebar-page.php    |   28 [32m+[m
+ wp-content/themes/twentyeleven/sidebar.php         |   36 [32m+[m
+ wp-content/themes/twentyeleven/single.php          |   32 [32m+[m
+ wp-content/themes/twentyeleven/style.css           | 2719 [32m+++++++[m
+ wp-content/themes/twentyeleven/tag.php             |   65 [32m+[m
+ wp-content/themes/twentytwelve/404.php             |   29 [32m+[m
+ wp-content/themes/twentytwelve/archive.php         |   63 [32m+[m
+ wp-content/themes/twentytwelve/author.php          |   74 [32m+[m
+ wp-content/themes/twentytwelve/category.php        |   51 [32m+[m
+ wp-content/themes/twentytwelve/comments.php        |   60 [32m+[m
+ wp-content/themes/twentytwelve/content-aside.php   |   28 [32m+[m
+ wp-content/themes/twentytwelve/content-image.php   |   28 [32m+[m
+ wp-content/themes/twentytwelve/content-link.php    |   26 [32m+[m
+ wp-content/themes/twentytwelve/content-none.php    |   20 [32m+[m
+ wp-content/themes/twentytwelve/content-page.php    |   23 [32m+[m
+ wp-content/themes/twentytwelve/content-quote.php   |   25 [32m+[m
+ wp-content/themes/twentytwelve/content-status.php  |   32 [32m+[m
+ wp-content/themes/twentytwelve/content.php         |   64 [32m+[m
+ wp-content/themes/twentytwelve/css/ie.css          |  243 [32m+[m
+ .../themes/twentytwelve/editor-style-rtl.css       |   28 [32m+[m
+ wp-content/themes/twentytwelve/editor-style.css    |  342 [32m+[m
+ wp-content/themes/twentytwelve/footer.php          |   24 [32m+[m
+ wp-content/themes/twentytwelve/functions.php       |  450 [32m+[m
+ wp-content/themes/twentytwelve/header.php          |   54 [32m+[m
+ wp-content/themes/twentytwelve/image.php           |  106 [32m+[m
+ .../themes/twentytwelve/inc/custom-header.php      |  150 [32m+[m
+ wp-content/themes/twentytwelve/index.php           |   66 [32m+[m
+ wp-content/themes/twentytwelve/js/html5.js         |    7 [32m+[m
+ wp-content/themes/twentytwelve/js/navigation.js    |   33 [32m+[m
+ .../themes/twentytwelve/js/theme-customizer.js     |   32 [32m+[m
+ .../themes/twentytwelve/languages/twentytwelve.pot |  350 [32m+[m
+ .../twentytwelve/page-templates/front-page.php     |   35 [32m+[m
+ .../twentytwelve/page-templates/full-width.php     |   30 [32m+[m
+ wp-content/themes/twentytwelve/page.php            |   29 [32m+[m
+ wp-content/themes/twentytwelve/rtl.css             |  237 [32m+[m
+ wp-content/themes/twentytwelve/screenshot.png      |  Bin [31m0[m -> [32m171045[m bytes
+ wp-content/themes/twentytwelve/search.php          |   49 [32m+[m
+ wp-content/themes/twentytwelve/sidebar-front.php   |   35 [32m+[m
+ wp-content/themes/twentytwelve/sidebar.php         |   17 [32m+[m
+ wp-content/themes/twentytwelve/single.php          |   33 [32m+[m
+ wp-content/themes/twentytwelve/style.css           | 1727 [32m++++[m
+ wp-content/themes/twentytwelve/tag.php             |   51 [32m+[m
+ wp-content/uploads/2013/03/monday-202x150.jpg      |  Bin [31m0[m -> [32m13970[m bytes
+ wp-content/uploads/2013/03/monday-300x300.jpg      |  Bin [31m0[m -> [32m31217[m bytes
+ wp-content/uploads/2013/03/monday-612x288.jpg      |  Bin [31m0[m -> [32m62491[m bytes
+ wp-content/uploads/2013/03/monday.jpg              |  Bin [31m0[m -> [32m112361[m bytes
+ wp-content/uploads/2013/03/photo3-202x250.jpg      |  Bin [31m0[m -> [32m17725[m bytes
+ wp-content/uploads/2013/03/photo3-300x225.jpg      |  Bin [31m0[m -> [32m24035[m bytes
+ wp-content/uploads/2013/03/photo3-400x300.jpg      |  Bin [31m0[m -> [32m37840[m bytes
+ wp-content/uploads/2013/03/photo3-620x288.jpg      |  Bin [31m0[m -> [32m61339[m bytes
+ wp-content/uploads/2013/03/photo3.jpg              |  Bin [31m0[m -> [32m101024[m bytes
+ wp-content/uploads/2013/03/pic1-202x250.jpg        |  Bin [31m0[m -> [32m18808[m bytes
+ wp-content/uploads/2013/03/pic1-227x300.jpg        |  Bin [31m0[m -> [32m22472[m bytes
+ wp-content/uploads/2013/03/pic1-606x288.jpg        |  Bin [31m0[m -> [32m39544[m bytes
+ wp-content/uploads/2013/03/pic1.jpg                |  Bin [31m0[m -> [32m54099[m bytes
+ wp-content/uploads/2013/03/pic2.jpg                |  Bin [31m0[m -> [32m14485[m bytes
+ wp-content/uploads/2013/03/videoicon1-202x250.jpg  |  Bin [31m0[m -> [32m11801[m bytes
+ wp-content/uploads/2013/03/videoicon1-300x225.jpg  |  Bin [31m0[m -> [32m14147[m bytes
+ wp-content/uploads/2013/03/videoicon1-398x300.jpg  |  Bin [31m0[m -> [32m20624[m bytes
+ wp-content/uploads/2013/03/videoicon1-606x288.jpg  |  Bin [31m0[m -> [32m24605[m bytes
+ wp-content/uploads/2013/03/videoicon1.jpg          |  Bin [31m0[m -> [32m21651[m bytes
+ wp-content/uploads/userphoto/1.jpg                 |  Bin [31m0[m -> [32m4503[m bytes
+ wp-content/uploads/userphoto/1.thumbnail.jpg       |  Bin [31m0[m -> [32m4503[m bytes
+ wp-cron.php                                        |  104 [32m+[m
+ wp-includes/SimplePie/Author.php                   |  157 [32m+[m
+ wp-includes/SimplePie/Cache.php                    |  133 [32m+[m
+ wp-includes/SimplePie/Cache/Base.php               |  114 [32m+[m
+ wp-includes/SimplePie/Cache/DB.php                 |  137 [32m+[m
+ wp-includes/SimplePie/Cache/File.php               |  173 [32m+[m
+ wp-includes/SimplePie/Cache/Memcache.php           |  183 [32m+[m
+ wp-includes/SimplePie/Cache/MySQL.php              |  438 [32m+[m
+ wp-includes/SimplePie/Caption.php                  |  210 [32m+[m
+ wp-includes/SimplePie/Category.php                 |  157 [32m+[m
+ wp-includes/SimplePie/Content/Type/Sniffer.php     |  332 [32m+[m
+ wp-includes/SimplePie/Copyright.php                |  130 [32m+[m
+ wp-includes/SimplePie/Core.php                     |   57 [32m+[m
+ wp-includes/SimplePie/Credit.php                   |  156 [32m+[m
+ wp-includes/SimplePie/Decode/HTML/Entities.php     |  617 [32m++[m
+ wp-includes/SimplePie/Enclosure.php                | 1380 [32m++++[m
+ wp-includes/SimplePie/Exception.php                |   52 [32m+[m
+ wp-includes/SimplePie/File.php                     |  292 [32m+[m
+ wp-includes/SimplePie/HTTP/Parser.php              |  500 [32m++[m
+ wp-includes/SimplePie/IRI.php                      | 1238 [32m+++[m
+ wp-includes/SimplePie/Item.php                     | 2964 [32m+++++++[m
+ wp-includes/SimplePie/Locator.php                  |  372 [32m+[m
+ wp-includes/SimplePie/Misc.php                     | 2247 [32m+++++[m
+ wp-includes/SimplePie/Net/IPv6.php                 |  276 [32m+[m
+ wp-includes/SimplePie/Parse/Date.php               |  983 [32m+++[m
+ wp-includes/SimplePie/Parser.php                   |  407 [32m+[m
+ wp-includes/SimplePie/Rating.php                   |  129 [32m+[m
+ wp-includes/SimplePie/Registry.php                 |  225 [32m+[m
+ wp-includes/SimplePie/Restriction.php              |  155 [32m+[m
+ wp-includes/SimplePie/Sanitize.php                 |  554 [32m++[m
+ wp-includes/SimplePie/Source.php                   |  611 [32m++[m
+ wp-includes/SimplePie/XML/Declaration/Parser.php   |  362 [32m+[m
+ wp-includes/SimplePie/gzdecode.php                 |  371 [32m+[m
+ wp-includes/Text/Diff.php                          |  450 [32m+[m
+ wp-includes/Text/Diff/Engine/native.php            |  436 [32m+[m
+ wp-includes/Text/Diff/Engine/shell.php             |  162 [32m+[m
+ wp-includes/Text/Diff/Engine/string.php            |  248 [32m+[m
+ wp-includes/Text/Diff/Engine/xdiff.php             |   64 [32m+[m
+ wp-includes/Text/Diff/Renderer.php                 |  235 [32m+[m
+ wp-includes/Text/Diff/Renderer/inline.php          |  206 [32m+[m
+ wp-includes/admin-bar.php                          |  770 [32m++[m
+ wp-includes/atomlib.php                            |  352 [32m+[m
+ wp-includes/author-template.php                    |  392 [32m+[m
+ wp-includes/bookmark-template.php                  |  257 [32m+[m
+ wp-includes/bookmark.php                           |  387 [32m+[m
+ wp-includes/cache.php                              |  653 [32m++[m
+ wp-includes/canonical.php                          |  536 [32m++[m
+ wp-includes/capabilities.php                       | 1468 [32m++++[m
+ wp-includes/category-template.php                  | 1192 [32m+++[m
+ wp-includes/category.php                           |  336 [32m+[m
+ wp-includes/class-IXR.php                          | 1070 [32m+++[m
+ wp-includes/class-feed.php                         |  129 [32m+[m
+ wp-includes/class-http.php                         | 1791 [32m++++[m
+ wp-includes/class-json.php                         |  862 [32m++[m
+ wp-includes/class-oembed.php                       |  332 [32m+[m
+ wp-includes/class-phpass.php                       |  260 [32m+[m
+ wp-includes/class-phpmailer.php                    | 2532 [32m++++++[m
+ wp-includes/class-pop3.php                         |  652 [32m++[m
+ wp-includes/class-simplepie.php                    | 3119 [32m+++++++[m
+ wp-includes/class-smtp.php                         |  818 [32m++[m
+ wp-includes/class-snoopy.php                       | 1256 [32m+++[m
+ wp-includes/class-wp-admin-bar.php                 |  490 [32m++[m
+ wp-includes/class-wp-ajax-response.php             |  139 [32m+[m
+ wp-includes/class-wp-customize-control.php         |  819 [32m++[m
+ wp-includes/class-wp-customize-manager.php         | 1051 [32m+++[m
+ wp-includes/class-wp-customize-section.php         |   93 [32m+[m
+ wp-includes/class-wp-customize-setting.php         |  439 [32m+[m
+ wp-includes/class-wp-editor.php                    |  863 [32m++[m
+ wp-includes/class-wp-embed.php                     |  277 [32m+[m
+ wp-includes/class-wp-error.php                     |  210 [32m+[m
+ wp-includes/class-wp-http-ixr-client.php           |   92 [32m+[m
+ wp-includes/class-wp-image-editor-gd.php           |  390 [32m+[m
+ wp-includes/class-wp-image-editor-imagick.php      |  468 [32m++[m
+ wp-includes/class-wp-image-editor.php              |  400 [32m+[m
+ wp-includes/class-wp-theme.php                     | 1199 [32m+++[m
+ wp-includes/class-wp-walker.php                    |  397 [32m+[m
+ wp-includes/class-wp-xmlrpc-server.php             | 5507 [32m+++++++++++++[m
+ wp-includes/class-wp.php                           |  645 [32m++[m
+ wp-includes/class.wp-dependencies.php              |  261 [32m+[m
+ wp-includes/class.wp-scripts.php                   |  214 [32m+[m
+ wp-includes/class.wp-styles.php                    |  170 [32m+[m
+ wp-includes/comment-template.php                   | 1589 [32m++++[m
+ wp-includes/comment.php                            | 2142 [32m+++++[m
+ wp-includes/compat.php                             |   96 [32m+[m
+ wp-includes/cron.php                               |  414 [32m+[m
+ wp-includes/css/admin-bar-rtl.css                  |  201 [32m+[m
+ wp-includes/css/admin-bar-rtl.min.css              |    1 [32m+[m
+ wp-includes/css/admin-bar.css                      |  685 [32m++[m
+ wp-includes/css/admin-bar.min.css                  |    1 [32m+[m
+ wp-includes/css/buttons.css                        |  288 [32m+[m
+ wp-includes/css/buttons.min.css                    |    1 [32m+[m
+ wp-includes/css/editor.css                         | 2116 [32m+++++[m
+ wp-includes/css/editor.min.css                     |    1 [32m+[m
+ wp-includes/css/jquery-ui-dialog.css               |  139 [32m+[m
+ wp-includes/css/jquery-ui-dialog.min.css           |    1 [32m+[m
+ wp-includes/css/media-views-rtl.css                |  303 [32m+[m
+ wp-includes/css/media-views-rtl.min.css            |    1 [32m+[m
+ wp-includes/css/media-views.css                    | 1673 [32m++++[m
+ wp-includes/css/media-views.min.css                |    1 [32m+[m
+ wp-includes/css/wp-pointer.css                     |  228 [32m+[m
+ wp-includes/css/wp-pointer.min.css                 |    1 [32m+[m
+ wp-includes/default-constants.php                  |  309 [32m+[m
+ wp-includes/default-filters.php                    |  293 [32m+[m
+ wp-includes/default-widgets.php                    | 1201 [32m+++[m
+ wp-includes/deprecated.php                         | 3366 [32m++++++++[m
+ wp-includes/feed-atom-comments.php                 |   86 [32m+[m
+ wp-includes/feed-atom.php                          |   55 [32m+[m
+ wp-includes/feed-rdf.php                           |   54 [32m+[m
+ wp-includes/feed-rss.php                           |   31 [32m+[m
+ wp-includes/feed-rss2-comments.php                 |   65 [32m+[m
+ wp-includes/feed-rss2.php                          |   61 [32m+[m
+ wp-includes/feed.php                               |  549 [32m++[m
+ wp-includes/formatting.php                         | 3308 [32m++++++++[m
+ wp-includes/functions.php                          | 3860 [32m+++++++++[m
+ wp-includes/functions.wp-scripts.php               |  185 [32m+[m
+ wp-includes/functions.wp-styles.php                |  192 [32m+[m
+ wp-includes/general-template.php                   | 2286 [32m++++++[m
+ wp-includes/http.php                               |  313 [32m+[m
+ wp-includes/images/admin-bar-sprite-2x.png         |  Bin [31m0[m -> [32m4122[m bytes
+ wp-includes/images/admin-bar-sprite.png            |  Bin [31m0[m -> [32m2470[m bytes
+ wp-includes/images/arrow-pointer-blue-2x.png       |  Bin [31m0[m -> [32m52574[m bytes
+ wp-includes/images/arrow-pointer-blue.png          |  Bin [31m0[m -> [32m793[m bytes
+ wp-includes/images/blank.gif                       |  Bin [31m0[m -> [32m43[m bytes
+ wp-includes/images/crystal/archive.png             |  Bin [31m0[m -> [32m2897[m bytes
+ wp-includes/images/crystal/audio.png               |  Bin [31m0[m -> [32m2595[m bytes
+ wp-includes/images/crystal/code.png                |  Bin [31m0[m -> [32m1604[m bytes
+ wp-includes/images/crystal/default.png             |  Bin [31m0[m -> [32m490[m bytes
+ wp-includes/images/crystal/document.png            |  Bin [31m0[m -> [32m2230[m bytes
+ wp-includes/images/crystal/interactive.png         |  Bin [31m0[m -> [32m2680[m bytes
+ wp-includes/images/crystal/license.txt             |    9 [32m+[m
+ wp-includes/images/crystal/spreadsheet.png         |  Bin [31m0[m -> [32m2680[m bytes
+ wp-includes/images/crystal/text.png                |  Bin [31m0[m -> [32m707[m bytes
+ wp-includes/images/crystal/video.png               |  Bin [31m0[m -> [32m1339[m bytes
+ wp-includes/images/down_arrow-2x.gif               |  Bin [31m0[m -> [32m83[m bytes
+ wp-includes/images/down_arrow.gif                  |  Bin [31m0[m -> [32m60[m bytes
+ wp-includes/images/icon-pointer-flag-2x.png        |  Bin [31m0[m -> [32m1369[m bytes
+ wp-includes/images/icon-pointer-flag.png           |  Bin [31m0[m -> [32m783[m bytes
+ wp-includes/images/rss-2x.png                      |  Bin [31m0[m -> [32m1306[m bytes
+ wp-includes/images/rss.png                         |  Bin [31m0[m -> [32m608[m bytes
+ wp-includes/images/smilies/icon_arrow.gif          |  Bin [31m0[m -> [32m170[m bytes
+ wp-includes/images/smilies/icon_biggrin.gif        |  Bin [31m0[m -> [32m172[m bytes
+ wp-includes/images/smilies/icon_confused.gif       |  Bin [31m0[m -> [32m171[m bytes
+ wp-includes/images/smilies/icon_cool.gif           |  Bin [31m0[m -> [32m172[m bytes
+ wp-includes/images/smilies/icon_cry.gif            |  Bin [31m0[m -> [32m498[m bytes
+ wp-includes/images/smilies/icon_eek.gif            |  Bin [31m0[m -> [32m170[m bytes
+ wp-includes/images/smilies/icon_evil.gif           |  Bin [31m0[m -> [32m236[m bytes
+ wp-includes/images/smilies/icon_exclaim.gif        |  Bin [31m0[m -> [32m236[m bytes
+ wp-includes/images/smilies/icon_idea.gif           |  Bin [31m0[m -> [32m176[m bytes
+ wp-includes/images/smilies/icon_lol.gif            |  Bin [31m0[m -> [32m336[m bytes
+ wp-includes/images/smilies/icon_mad.gif            |  Bin [31m0[m -> [32m174[m bytes
+ wp-includes/images/smilies/icon_mrgreen.gif        |  Bin [31m0[m -> [32m349[m bytes
+ wp-includes/images/smilies/icon_neutral.gif        |  Bin [31m0[m -> [32m171[m bytes
+ wp-includes/images/smilies/icon_question.gif       |  Bin [31m0[m -> [32m248[m bytes
+ wp-includes/images/smilies/icon_razz.gif           |  Bin [31m0[m -> [32m176[m bytes
+ wp-includes/images/smilies/icon_redface.gif        |  Bin [31m0[m -> [32m650[m bytes
+ wp-includes/images/smilies/icon_rolleyes.gif       |  Bin [31m0[m -> [32m485[m bytes
+ wp-includes/images/smilies/icon_sad.gif            |  Bin [31m0[m -> [32m171[m bytes
+ wp-includes/images/smilies/icon_smile.gif          |  Bin [31m0[m -> [32m174[m bytes
+ wp-includes/images/smilies/icon_surprised.gif      |  Bin [31m0[m -> [32m174[m bytes
+ wp-includes/images/smilies/icon_twisted.gif        |  Bin [31m0[m -> [32m238[m bytes
+ wp-includes/images/smilies/icon_wink.gif           |  Bin [31m0[m -> [32m170[m bytes
+ wp-includes/images/toggle-arrow-2x.png             |  Bin [31m0[m -> [32m354[m bytes
+ wp-includes/images/toggle-arrow.png                |  Bin [31m0[m -> [32m333[m bytes
+ wp-includes/images/uploader-icons-2x.png           |  Bin [31m0[m -> [32m3915[m bytes
+ wp-includes/images/uploader-icons.png              |  Bin [31m0[m -> [32m1593[m bytes
+ wp-includes/images/wlw/wp-comments.png             |  Bin [31m0[m -> [32m1373[m bytes
+ wp-includes/images/wlw/wp-icon.png                 |  Bin [31m0[m -> [32m664[m bytes
+ wp-includes/images/wlw/wp-watermark.png            |  Bin [31m0[m -> [32m5102[m bytes
+ wp-includes/images/wpicons-2x.png                  |  Bin [31m0[m -> [32m125467[m bytes
+ wp-includes/images/wpicons.png                     |  Bin [31m0[m -> [32m16089[m bytes
+ wp-includes/images/wpmini-blue-2x.png              |  Bin [31m0[m -> [32m2087[m bytes
+ wp-includes/images/wpmini-blue.png                 |  Bin [31m0[m -> [32m751[m bytes
+ wp-includes/images/wpspin-2x.gif                   |  Bin [31m0[m -> [32m9097[m bytes
+ wp-includes/images/wpspin.gif                      |  Bin [31m0[m -> [32m2193[m bytes
+ wp-includes/images/xit-2x.gif                      |  Bin [31m0[m -> [32m823[m bytes
+ wp-includes/images/xit.gif                         |  Bin [31m0[m -> [32m182[m bytes
+ wp-includes/js/admin-bar.js                        |  318 [32m+[m
+ wp-includes/js/admin-bar.min.js                    |    1 [32m+[m
+ wp-includes/js/autosave.js                         |  351 [32m+[m
+ wp-includes/js/autosave.min.js                     |    1 [32m+[m
+ wp-includes/js/backbone.min.js                     |   38 [32m+[m
+ wp-includes/js/colorpicker.js                      |  707 [32m++[m
+ wp-includes/js/colorpicker.min.js                  |    1 [32m+[m
+ wp-includes/js/comment-reply.js                    |   48 [32m+[m
+ wp-includes/js/comment-reply.min.js                |    1 [32m+[m
+ wp-includes/js/crop/cropper.css                    |  165 [32m+[m
+ wp-includes/js/crop/cropper.js                     |  516 [32m++[m
+ wp-includes/js/crop/marqueeHoriz.gif               |  Bin [31m0[m -> [32m277[m bytes
+ wp-includes/js/crop/marqueeVert.gif                |  Bin [31m0[m -> [32m293[m bytes
+ wp-includes/js/customize-base.js                   |  585 [32m++[m
+ wp-includes/js/customize-base.min.js               |    1 [32m+[m
+ wp-includes/js/customize-loader.js                 |  164 [32m+[m
+ wp-includes/js/customize-loader.min.js             |    1 [32m+[m
+ wp-includes/js/customize-preview.js                |  146 [32m+[m
+ wp-includes/js/customize-preview.min.js            |    1 [32m+[m
+ wp-includes/js/hoverIntent.js                      |  106 [32m+[m
+ wp-includes/js/hoverIntent.min.js                  |    1 [32m+[m
+ wp-includes/js/imgareaselect/border-anim-h.gif     |  Bin [31m0[m -> [32m178[m bytes
+ wp-includes/js/imgareaselect/border-anim-v.gif     |  Bin [31m0[m -> [32m178[m bytes
+ wp-includes/js/imgareaselect/imgareaselect.css     |   41 [32m+[m
+ .../js/imgareaselect/jquery.imgareaselect.js       | 1198 [32m+++[m
+ .../js/imgareaselect/jquery.imgareaselect.min.js   |    1 [32m+[m
+ wp-includes/js/jcrop/Jcrop.gif                     |  Bin [31m0[m -> [32m323[m bytes
+ wp-includes/js/jcrop/jquery.Jcrop.min.css          |   28 [32m+[m
+ wp-includes/js/jcrop/jquery.Jcrop.min.js           |   22 [32m+[m
+ wp-includes/js/jquery/jquery.color.min.js          |    2 [32m+[m
+ wp-includes/js/jquery/jquery.form.js               |  825 [32m++[m
+ wp-includes/js/jquery/jquery.form.min.js           |   11 [32m+[m
+ wp-includes/js/jquery/jquery.hotkeys.js            |  131 [32m+[m
+ wp-includes/js/jquery/jquery.hotkeys.min.js        |    1 [32m+[m
+ wp-includes/js/jquery/jquery.js                    |    3 [32m+[m
+ wp-includes/js/jquery/jquery.masonry.min.js        |   10 [32m+[m
+ wp-includes/js/jquery/jquery.query.js              |   11 [32m+[m
+ wp-includes/js/jquery/jquery.schedule.js           |   36 [32m+[m
+ wp-includes/js/jquery/jquery.serialize-object.js   |   31 [32m+[m
+ wp-includes/js/jquery/jquery.table-hotkeys.js      |   99 [32m+[m
+ wp-includes/js/jquery/jquery.table-hotkeys.min.js  |    1 [32m+[m
+ wp-includes/js/jquery/jquery.ui.touch-punch.js     |   11 [32m+[m
+ wp-includes/js/jquery/suggest.js                   |  330 [32m+[m
+ wp-includes/js/jquery/suggest.min.js               |    1 [32m+[m
+ .../js/jquery/ui/jquery.ui.accordion.min.js        |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.autocomplete.min.js     |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.button.min.js   |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.core.min.js     |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.datepicker.min.js       |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.dialog.min.js   |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.draggable.min.js        |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.droppable.min.js        |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-blind.min.js     |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-bounce.min.js    |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-clip.min.js      |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-drop.min.js      |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-explode.min.js   |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-fade.min.js      |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-fold.min.js      |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-highlight.min.js |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-pulsate.min.js   |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-scale.min.js     |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-shake.min.js     |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-slide.min.js     |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.effect-transfer.min.js  |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.effect.min.js   |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.menu.min.js     |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.mouse.min.js    |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.position.min.js |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.progressbar.min.js      |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.resizable.min.js        |    5 [32m+[m
+ .../js/jquery/ui/jquery.ui.selectable.min.js       |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.slider.min.js   |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.sortable.min.js |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.spinner.min.js  |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.tabs.min.js     |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.tooltip.min.js  |    5 [32m+[m
+ wp-includes/js/jquery/ui/jquery.ui.widget.min.js   |    5 [32m+[m
+ wp-includes/js/json2.js                            |  480 [32m++[m
+ wp-includes/js/json2.min.js                        |    1 [32m+[m
+ wp-includes/js/mce-view.js                         |  349 [32m+[m
+ wp-includes/js/mce-view.min.js                     |    1 [32m+[m
+ wp-includes/js/media-editor.js                     |  648 [32m++[m
+ wp-includes/js/media-editor.min.js                 |    1 [32m+[m
+ wp-includes/js/media-models.js                     |  908 [32m+++[m
+ wp-includes/js/media-models.min.js                 |    1 [32m+[m
+ wp-includes/js/media-views.js                      | 4305 [32m++++++++++[m
+ wp-includes/js/media-views.min.js                  |    1 [32m+[m
+ wp-includes/js/plupload/changelog.txt              |  227 [32m+[m
+ wp-includes/js/plupload/handlers.js                |  486 [32m++[m
+ wp-includes/js/plupload/handlers.min.js            |    1 [32m+[m
+ wp-includes/js/plupload/license.txt                |  339 [32m+[m
+ wp-includes/js/plupload/plupload.flash.js          |    1 [32m+[m
+ wp-includes/js/plupload/plupload.flash.swf         |  Bin [31m0[m -> [32m18958[m bytes
+ wp-includes/js/plupload/plupload.html4.js          |    1 [32m+[m
+ wp-includes/js/plupload/plupload.html5.js          |    1 [32m+[m
+ wp-includes/js/plupload/plupload.js                |    2 [32m+[m
+ wp-includes/js/plupload/plupload.silverlight.js    |    1 [32m+[m
+ wp-includes/js/plupload/plupload.silverlight.xap   |  Bin [31m0[m -> [32m44116[m bytes
+ wp-includes/js/plupload/wp-plupload.js             |  343 [32m+[m
+ wp-includes/js/plupload/wp-plupload.min.js         |    1 [32m+[m
+ wp-includes/js/quicktags.js                        |  649 [32m++[m
+ wp-includes/js/quicktags.min.js                    |    1 [32m+[m
+ wp-includes/js/shortcode.js                        |  342 [32m+[m
+ wp-includes/js/shortcode.min.js                    |    1 [32m+[m
+ wp-includes/js/swfobject.js                        |    4 [32m+[m
+ wp-includes/js/swfupload/handlers.js               |  370 [32m+[m
+ wp-includes/js/swfupload/handlers.min.js           |    1 [32m+[m
+ wp-includes/js/swfupload/license.txt               |   32 [32m+[m
+ .../js/swfupload/plugins/swfupload.cookies.js      |   53 [32m+[m
+ .../js/swfupload/plugins/swfupload.queue.js        |   98 [32m+[m
+ .../js/swfupload/plugins/swfupload.speed.js        |  342 [32m+[m
+ .../js/swfupload/plugins/swfupload.swfobject.js    |  105 [32m+[m
+ wp-includes/js/swfupload/swfupload-all.js          |    8 [32m+[m
+ wp-includes/js/swfupload/swfupload.js              |  980 [32m+++[m
+ wp-includes/js/swfupload/swfupload.swf             |  Bin [31m0[m -> [32m12547[m bytes
+ wp-includes/js/thickbox/loadingAnimation.gif       |  Bin [31m0[m -> [32m15238[m bytes
+ wp-includes/js/thickbox/macFFBgHack.png            |  Bin [31m0[m -> [32m94[m bytes
+ wp-includes/js/thickbox/tb-close-2x.png            |  Bin [31m0[m -> [32m412[m bytes
+ wp-includes/js/thickbox/tb-close.png               |  Bin [31m0[m -> [32m387[m bytes
+ wp-includes/js/thickbox/thickbox.css               |  178 [32m+[m
+ wp-includes/js/thickbox/thickbox.js                |  321 [32m+[m
+ wp-includes/js/tinymce/langs/wp-langs-en.js        |  504 [32m++[m
+ wp-includes/js/tinymce/langs/wp-langs.php          |  565 [32m++[m
+ wp-includes/js/tinymce/license.txt                 |  504 [32m++[m
+ wp-includes/js/tinymce/mark_loaded_src.js          |   20 [32m+[m
+ .../plugins/directionality/editor_plugin.js        |    1 [32m+[m
+ .../plugins/directionality/editor_plugin_src.js    |   85 [32m+[m
+ .../js/tinymce/plugins/fullscreen/editor_plugin.js |    1 [32m+[m
+ .../plugins/fullscreen/editor_plugin_src.js        |  159 [32m+[m
+ .../js/tinymce/plugins/fullscreen/fullscreen.htm   |  110 [32m+[m
+ .../tinymce/plugins/inlinepopups/editor_plugin.js  |    1 [32m+[m
+ .../plugins/inlinepopups/editor_plugin_src.js      |  699 [32m++[m
+ .../inlinepopups/skins/clearlooks2/img/alert.gif   |  Bin [31m0[m -> [32m810[m bytes
+ .../inlinepopups/skins/clearlooks2/img/button.gif  |  Bin [31m0[m -> [32m272[m bytes
+ .../inlinepopups/skins/clearlooks2/img/buttons.gif |  Bin [31m0[m -> [32m989[m bytes
+ .../inlinepopups/skins/clearlooks2/img/confirm.gif |  Bin [31m0[m -> [32m907[m bytes
+ .../inlinepopups/skins/clearlooks2/img/corners.gif |  Bin [31m0[m -> [32m909[m bytes
+ .../inlinepopups/skins/clearlooks2/img/drag.gif    |  Bin [31m0[m -> [32m51[m bytes
+ .../skins/clearlooks2/img/horizontal.gif           |  Bin [31m0[m -> [32m769[m bytes
+ .../skins/clearlooks2/img/vertical.gif             |  Bin [31m0[m -> [32m84[m bytes
+ .../inlinepopups/skins/clearlooks2/window.css      |  126 [32m+[m
+ .../js/tinymce/plugins/inlinepopups/template.htm   |  387 [32m+[m
+ wp-includes/js/tinymce/plugins/media/css/media.css |   17 [32m+[m
+ .../js/tinymce/plugins/media/editor_plugin.js      |    1 [32m+[m
+ .../js/tinymce/plugins/media/editor_plugin_src.js  |  898 [32m++[m
+ wp-includes/js/tinymce/plugins/media/js/embed.js   |   73 [32m+[m
+ wp-includes/js/tinymce/plugins/media/js/media.js   |  513 [32m++[m
+ wp-includes/js/tinymce/plugins/media/media.htm     |  922 [32m+++[m
+ .../js/tinymce/plugins/media/moxieplayer.swf       |  Bin [31m0[m -> [32m19980[m bytes
+ .../js/tinymce/plugins/paste/editor_plugin.js      |    1 [32m+[m
+ .../js/tinymce/plugins/paste/editor_plugin_src.js  |  885 [32m++[m
+ .../js/tinymce/plugins/paste/js/pastetext.js       |   36 [32m+[m
+ .../js/tinymce/plugins/paste/js/pasteword.js       |   51 [32m+[m
+ wp-includes/js/tinymce/plugins/paste/pastetext.htm |   27 [32m+[m
+ wp-includes/js/tinymce/plugins/paste/pasteword.htm |   21 [32m+[m
+ .../js/tinymce/plugins/spellchecker/changelog.txt  |   33 [32m+[m
+ .../plugins/spellchecker/classes/EnchantSpell.php  |   71 [32m+[m
+ .../plugins/spellchecker/classes/GoogleSpell.php   |  161 [32m+[m
+ .../plugins/spellchecker/classes/PSpell.php        |   82 [32m+[m
+ .../plugins/spellchecker/classes/PSpellShell.php   |  117 [32m+[m
+ .../plugins/spellchecker/classes/SpellChecker.php  |   62 [32m+[m
+ .../plugins/spellchecker/classes/utils/JSON.php    |  595 [32m++[m
+ .../plugins/spellchecker/classes/utils/Logger.php  |  268 [32m+[m
+ .../js/tinymce/plugins/spellchecker/config.php     |   27 [32m+[m
+ .../tinymce/plugins/spellchecker/css/content.css   |    1 [32m+[m
+ .../tinymce/plugins/spellchecker/editor_plugin.js  |    1 [32m+[m
+ .../plugins/spellchecker/editor_plugin_src.js      |  436 [32m+[m
+ .../js/tinymce/plugins/spellchecker/img/wline.gif  |  Bin [31m0[m -> [32m46[m bytes
+ .../plugins/spellchecker/includes/general.php      |   98 [32m+[m
+ .../js/tinymce/plugins/spellchecker/rpc.php        |  112 [32m+[m
+ .../js/tinymce/plugins/tabfocus/editor_plugin.js   |    1 [32m+[m
+ .../tinymce/plugins/tabfocus/editor_plugin_src.js  |  122 [32m+[m
+ .../js/tinymce/plugins/wordpress/editor_plugin.js  |    1 [32m+[m
+ .../tinymce/plugins/wordpress/editor_plugin_src.js |  426 [32m+[m
+ .../js/tinymce/plugins/wordpress/img/audio.gif     |  Bin [31m0[m -> [32m146[m bytes
+ .../js/tinymce/plugins/wordpress/img/image.gif     |  Bin [31m0[m -> [32m95[m bytes
+ .../js/tinymce/plugins/wordpress/img/media.gif     |  Bin [31m0[m -> [32m149[m bytes
+ .../js/tinymce/plugins/wordpress/img/page.gif      |  Bin [31m0[m -> [32m108[m bytes
+ .../js/tinymce/plugins/wordpress/img/trans.gif     |  Bin [31m0[m -> [32m43[m bytes
+ .../js/tinymce/plugins/wordpress/img/video.gif     |  Bin [31m0[m -> [32m93[m bytes
+ .../js/tinymce/plugins/wpdialogs/editor_plugin.js  |    1 [32m+[m
+ .../tinymce/plugins/wpdialogs/editor_plugin_src.js |   80 [32m+[m
+ .../js/tinymce/plugins/wpdialogs/js/popup.js       |  432 [32m+[m
+ .../js/tinymce/plugins/wpdialogs/js/popup.min.js   |    1 [32m+[m
+ .../js/tinymce/plugins/wpdialogs/js/wpdialog.js    |   28 [32m+[m
+ .../tinymce/plugins/wpdialogs/js/wpdialog.min.js   |    1 [32m+[m
+ .../tinymce/plugins/wpeditimage/css/editimage.css  |  443 [32m+[m
+ .../js/tinymce/plugins/wpeditimage/editimage.html  |  274 [32m+[m
+ .../tinymce/plugins/wpeditimage/editor_plugin.js   |    1 [32m+[m
+ .../plugins/wpeditimage/editor_plugin_src.js       |  325 [32m+[m
+ .../tinymce/plugins/wpeditimage/img/delete-2x.png  |  Bin [31m0[m -> [32m5064[m bytes
+ .../js/tinymce/plugins/wpeditimage/img/delete.png  |  Bin [31m0[m -> [32m1386[m bytes
+ .../tinymce/plugins/wpeditimage/img/image-2x.png   |  Bin [31m0[m -> [32m2687[m bytes
+ .../js/tinymce/plugins/wpeditimage/img/image.png   |  Bin [31m0[m -> [32m946[m bytes
+ .../js/tinymce/plugins/wpeditimage/js/editimage.js |  613 [32m++[m
+ .../plugins/wpeditimage/js/editimage.min.js        |    1 [32m+[m
+ .../plugins/wpfullscreen/css/wp-fullscreen.css     |   13 [32m+[m
+ .../tinymce/plugins/wpfullscreen/editor_plugin.js  |    1 [32m+[m
+ .../plugins/wpfullscreen/editor_plugin_src.js      |  189 [32m+[m
+ .../js/tinymce/plugins/wpgallery/editor_plugin.js  |    1 [32m+[m
+ .../tinymce/plugins/wpgallery/editor_plugin_src.js |  156 [32m+[m
+ .../js/tinymce/plugins/wpgallery/img/delete-2x.png |  Bin [31m0[m -> [32m5064[m bytes
+ .../js/tinymce/plugins/wpgallery/img/delete.png    |  Bin [31m0[m -> [32m1386[m bytes
+ .../js/tinymce/plugins/wpgallery/img/edit-2x.png   |  Bin [31m0[m -> [32m4924[m bytes
+ .../js/tinymce/plugins/wpgallery/img/edit.png      |  Bin [31m0[m -> [32m1590[m bytes
+ wp-includes/js/tinymce/plugins/wpgallery/img/t.gif |  Bin [31m0[m -> [32m43[m bytes
+ .../js/tinymce/plugins/wplink/editor_plugin.js     |    1 [32m+[m
+ .../js/tinymce/plugins/wplink/editor_plugin_src.js |   59 [32m+[m
+ .../js/tinymce/plugins/wpview/editor_plugin.js     |    1 [32m+[m
+ .../js/tinymce/plugins/wpview/editor_plugin_src.js |  188 [32m+[m
+ wp-includes/js/tinymce/themes/advanced/about.htm   |   52 [32m+[m
+ wp-includes/js/tinymce/themes/advanced/anchor.htm  |   26 [32m+[m
+ wp-includes/js/tinymce/themes/advanced/charmap.htm |   55 [32m+[m
+ .../js/tinymce/themes/advanced/color_picker.htm    |   70 [32m+[m
+ .../js/tinymce/themes/advanced/editor_template.js  |    1 [32m+[m
+ .../tinymce/themes/advanced/editor_template_src.js | 1490 [32m++++[m
+ wp-includes/js/tinymce/themes/advanced/image.htm   |   80 [32m+[m
+ .../js/tinymce/themes/advanced/img/colorpicker.jpg |  Bin [31m0[m -> [32m2584[m bytes
+ .../js/tinymce/themes/advanced/img/flash.gif       |  Bin [31m0[m -> [32m239[m bytes
+ .../js/tinymce/themes/advanced/img/gotmoxie.png    |  Bin [31m0[m -> [32m892[m bytes
+ .../js/tinymce/themes/advanced/img/icons.gif       |  Bin [31m0[m -> [32m11982[m bytes
+ .../js/tinymce/themes/advanced/img/iframe.gif      |  Bin [31m0[m -> [32m600[m bytes
+ .../js/tinymce/themes/advanced/img/pagebreak.gif   |  Bin [31m0[m -> [32m325[m bytes
+ .../js/tinymce/themes/advanced/img/quicktime.gif   |  Bin [31m0[m -> [32m301[m bytes
+ .../js/tinymce/themes/advanced/img/realmedia.gif   |  Bin [31m0[m -> [32m439[m bytes
+ .../js/tinymce/themes/advanced/img/shockwave.gif   |  Bin [31m0[m -> [32m384[m bytes
+ .../js/tinymce/themes/advanced/img/trans.gif       |  Bin [31m0[m -> [32m43[m bytes
+ .../js/tinymce/themes/advanced/img/video.gif       |  Bin [31m0[m -> [32m597[m bytes
+ .../tinymce/themes/advanced/img/windowsmedia.gif   |  Bin [31m0[m -> [32m415[m bytes
+ wp-includes/js/tinymce/themes/advanced/js/about.js |   73 [32m+[m
+ .../js/tinymce/themes/advanced/js/anchor.js        |   56 [32m+[m
+ .../js/tinymce/themes/advanced/js/charmap.js       |  363 [32m+[m
+ .../js/tinymce/themes/advanced/js/color_picker.js  |  345 [32m+[m
+ wp-includes/js/tinymce/themes/advanced/js/image.js |  253 [32m+[m
+ wp-includes/js/tinymce/themes/advanced/js/link.js  |  159 [32m+[m
+ .../js/tinymce/themes/advanced/js/source_editor.js |   78 [32m+[m
+ wp-includes/js/tinymce/themes/advanced/link.htm    |   57 [32m+[m
+ .../js/tinymce/themes/advanced/shortcuts.htm       |   47 [32m+[m
+ .../themes/advanced/skins/default/content.css      |   50 [32m+[m
+ .../themes/advanced/skins/default/dialog.css       |  118 [32m+[m
+ .../themes/advanced/skins/default/img/buttons.png  |  Bin [31m0[m -> [32m3133[m bytes
+ .../themes/advanced/skins/default/img/items.gif    |  Bin [31m0[m -> [32m64[m bytes
+ .../advanced/skins/default/img/menu_arrow.gif      |  Bin [31m0[m -> [32m68[m bytes
+ .../advanced/skins/default/img/menu_check.gif      |  Bin [31m0[m -> [32m70[m bytes
+ .../themes/advanced/skins/default/img/progress.gif |  Bin [31m0[m -> [32m1787[m bytes
+ .../themes/advanced/skins/default/img/tabs.gif     |  Bin [31m0[m -> [32m1322[m bytes
+ .../tinymce/themes/advanced/skins/default/ui.css   |  219 [32m+[m
+ .../themes/advanced/skins/highcontrast/content.css |   24 [32m+[m
+ .../themes/advanced/skins/highcontrast/dialog.css  |  106 [32m+[m
+ .../themes/advanced/skins/highcontrast/ui.css      |  106 [32m+[m
+ .../tinymce/themes/advanced/skins/o2k7/content.css |   48 [32m+[m
+ .../tinymce/themes/advanced/skins/o2k7/dialog.css  |  118 [32m+[m
+ .../themes/advanced/skins/o2k7/img/button_bg.png   |  Bin [31m0[m -> [32m2766[m bytes
+ .../advanced/skins/o2k7/img/button_bg_black.png    |  Bin [31m0[m -> [32m651[m bytes
+ .../advanced/skins/o2k7/img/button_bg_silver.png   |  Bin [31m0[m -> [32m2084[m bytes
+ .../js/tinymce/themes/advanced/skins/o2k7/ui.css   |  222 [32m+[m
+ .../themes/advanced/skins/o2k7/ui_black.css        |    8 [32m+[m
+ .../themes/advanced/skins/o2k7/ui_silver.css       |    5 [32m+[m
+ .../themes/advanced/skins/wp_theme/content.css     |  142 [32m+[m
+ .../themes/advanced/skins/wp_theme/dialog.css      |  140 [32m+[m
+ .../advanced/skins/wp_theme/img/embedded.png       |  Bin [31m0[m -> [32m27345[m bytes
+ .../themes/advanced/skins/wp_theme/img/gallery.png |  Bin [31m0[m -> [32m26240[m bytes
+ .../advanced/skins/wp_theme/img/more_bug.gif       |  Bin [31m0[m -> [32m146[m bytes
+ .../advanced/skins/wp_theme/img/page_bug.gif       |  Bin [31m0[m -> [32m176[m bytes
+ .../themes/advanced/skins/wp_theme/img/tabs.gif    |  Bin [31m0[m -> [32m1322[m bytes
+ .../js/tinymce/themes/advanced/source_editor.htm   |   25 [32m+[m
+ wp-includes/js/tinymce/tiny_mce.js                 |    1 [32m+[m
+ wp-includes/js/tinymce/tiny_mce_popup.js           |    5 [32m+[m
+ wp-includes/js/tinymce/utils/editable_selects.js   |   70 [32m+[m
+ wp-includes/js/tinymce/utils/form_utils.js         |  210 [32m+[m
+ wp-includes/js/tinymce/utils/mctabs.js             |  162 [32m+[m
+ wp-includes/js/tinymce/utils/validate.js           |  252 [32m+[m
+ wp-includes/js/tinymce/wp-mce-help.php             |  281 [32m+[m
+ wp-includes/js/tinymce/wp-tinymce-schema.js        |  940 [32m+++[m
+ wp-includes/js/tinymce/wp-tinymce.js.gz            |  Bin [31m0[m -> [32m115718[m bytes
+ wp-includes/js/tinymce/wp-tinymce.php              |   38 [32m+[m
+ wp-includes/js/tw-sack.js                          |  193 [32m+[m
+ wp-includes/js/tw-sack.min.js                      |    1 [32m+[m
+ wp-includes/js/underscore.min.js                   |    5 [32m+[m
+ wp-includes/js/utils.js                            |  171 [32m+[m
+ wp-includes/js/utils.min.js                        |    1 [32m+[m
+ wp-includes/js/wp-ajax-response.js                 |   64 [32m+[m
+ wp-includes/js/wp-ajax-response.min.js             |    1 [32m+[m
+ wp-includes/js/wp-list-revisions.js                |   24 [32m+[m
+ wp-includes/js/wp-list-revisions.min.js            |    1 [32m+[m
+ wp-includes/js/wp-lists.js                         |  464 [32m++[m
+ wp-includes/js/wp-lists.min.js                     |    1 [32m+[m
+ wp-includes/js/wp-pointer.js                       |  281 [32m+[m
+ wp-includes/js/wp-pointer.min.js                   |    1 [32m+[m
+ wp-includes/js/wplink.js                           |  593 [32m++[m
+ wp-includes/js/wplink.min.js                       |    1 [32m+[m
+ wp-includes/kses.php                               | 1473 [32m++++[m
+ wp-includes/l10n.php                               |  553 [32m++[m
+ wp-includes/link-template.php                      | 2439 [32m++++++[m
+ wp-includes/load.php                               |  761 [32m++[m
+ wp-includes/locale.php                             |  341 [32m+[m
+ wp-includes/media-template.php                     |  467 [32m++[m
+ wp-includes/media.php                              | 1560 [32m++++[m
+ wp-includes/meta.php                               |  906 [32m+++[m
+ wp-includes/ms-blogs.php                           |  773 [32m++[m
+ wp-includes/ms-default-constants.php               |  151 [32m+[m
+ wp-includes/ms-default-filters.php                 |   66 [32m+[m
+ wp-includes/ms-deprecated.php                      |  272 [32m+[m
+ wp-includes/ms-files.php                           |   82 [32m+[m
+ wp-includes/ms-functions.php                       | 2016 [32m+++++[m
+ wp-includes/ms-load.php                            |  258 [32m+[m
+ wp-includes/ms-settings.php                        |  136 [32m+[m
+ wp-includes/nav-menu-template.php                  |  494 [32m++[m
+ wp-includes/nav-menu.php                           |  783 [32m++[m
+ wp-includes/option.php                             | 1056 [32m+++[m
+ wp-includes/pluggable-deprecated.php               |  192 [32m+[m
+ wp-includes/pluggable.php                          | 1740 [32m++++[m
+ wp-includes/plugin.php                             |  789 [32m++[m
+ wp-includes/pomo/entry.php                         |   78 [32m+[m
+ wp-includes/pomo/mo.php                            |  257 [32m+[m
+ wp-includes/pomo/po.php                            |  384 [32m+[m
+ wp-includes/pomo/streams.php                       |  209 [32m+[m
+ wp-includes/pomo/translations.php                  |  275 [32m+[m
+ wp-includes/post-template.php                      | 1463 [32m++++[m
+ wp-includes/post-thumbnail-template.php            |   99 [32m+[m
+ wp-includes/post.php                               | 5561 [32m+++++++++++++[m
+ wp-includes/query.php                              | 3658 [32m+++++++++[m
+ wp-includes/registration-functions.php             |    7 [32m+[m
+ wp-includes/registration.php                       |    7 [32m+[m
+ wp-includes/rewrite.php                            | 1999 [32m+++++[m
+ wp-includes/rss-functions.php                      |    9 [32m+[m
+ wp-includes/rss.php                                |  932 [32m+++[m
+ wp-includes/script-loader.php                      |  872 [32m++[m
+ wp-includes/shortcodes.php                         |  335 [32m+[m
+ wp-includes/taxonomy.php                           | 3301 [32m++++++++[m
+ wp-includes/template-loader.php                    |   49 [32m+[m
+ wp-includes/template.php                           |  411 [32m+[m
+ wp-includes/theme-compat/comments-popup.php        |  129 [32m+[m
+ wp-includes/theme-compat/comments.php              |  101 [32m+[m
+ wp-includes/theme-compat/footer.php                |   30 [32m+[m
+ wp-includes/theme-compat/header.php                |   49 [32m+[m
+ wp-includes/theme-compat/sidebar.php               |   83 [32m+[m
+ wp-includes/theme.php                              | 1724 [32m++++[m
+ wp-includes/update.php                             |  449 [32m+[m
+ wp-includes/user.php                               | 1545 [32m++++[m
+ wp-includes/vars.php                               |  127 [32m+[m
+ wp-includes/version.php                            |   35 [32m+[m
+ wp-includes/widgets.php                            | 1259 [32m+++[m
+ wp-includes/wlwmanifest.xml                        |   43 [32m+[m
+ wp-includes/wp-db.php                              | 1740 [32m++++[m
+ wp-includes/wp-diff.php                            |  472 [32m++[m
+ wp-links-opml.php                                  |   59 [32m+[m
+ wp-load.php                                        |   63 [32m+[m
+ wp-login.php                                       |  746 [32m++[m
+ wp-mail.php                                        |  230 [32m+[m
+ wp-settings.php                                    |  327 [32m+[m
+ wp-signup.php                                      |  442 [32m+[m
+ wp-trackback.php                                   |  110 [32m+[m
+ xmlrpc.php                                         |   86 [32m+[m
+ 1409 files changed, 308233 insertions(+)
